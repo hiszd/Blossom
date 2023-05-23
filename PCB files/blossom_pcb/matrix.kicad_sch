@@ -5,41 +5,29 @@
   (paper "A4")
 
   (lib_symbols
-    (symbol "Device:D" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "arisu-rescue:D-Device" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "D" (at 0 -2.54 0)
+      (property "Value" "Device_D" (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Sim.Device" "D" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Sim.Pins" "1=K 2=A" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "diode" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Diode" (at 0 0 0)
+      (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "D_0_1"
+      (symbol "D-Device_0_1"
         (polyline
           (pts
             (xy -1.27 1.27)
             (xy -1.27 -1.27)
           )
-          (stroke (width 0.254) (type default))
+          (stroke (width 0.254) (type solid))
           (fill (type none))
         )
         (polyline
@@ -47,7 +35,7 @@
             (xy 1.27 0)
             (xy -1.27 0)
           )
-          (stroke (width 0) (type default))
+          (stroke (width 0) (type solid))
           (fill (type none))
         )
         (polyline
@@ -57,11 +45,11 @@
             (xy -1.27 0)
             (xy 1.27 1.27)
           )
-          (stroke (width 0.254) (type default))
+          (stroke (width 0.254) (type solid))
           (fill (type none))
         )
       )
-      (symbol "D_1_1"
+      (symbol "D-Device_1_1"
         (pin passive line (at -3.81 0 0) (length 2.54)
           (name "K" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -72,28 +60,22 @@
         )
       )
     )
-    (symbol "Switch:SW_Push" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "arisu-rescue:SW_Push-Switch" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "SW" (at 1.27 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "SW_Push" (at 0 -1.524 0)
+      (property "Value" "Switch_SW_Push" (at 0 -1.524 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 5.08 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "~" (at 0 5.08 0)
+      (property "Datasheet" "" (at 0 5.08 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "switch normally-open pushbutton push-button" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Push button switch, generic, two pins" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "SW_Push_0_1"
+      (symbol "SW_Push-Switch_0_1"
         (circle (center -2.032 0) (radius 0.508)
-          (stroke (width 0) (type default))
+          (stroke (width 0) (type solid))
           (fill (type none))
         )
         (polyline
@@ -101,7 +83,7 @@
             (xy 0 1.27)
             (xy 0 3.048)
           )
-          (stroke (width 0) (type default))
+          (stroke (width 0) (type solid))
           (fill (type none))
         )
         (polyline
@@ -109,11 +91,11 @@
             (xy 2.54 1.27)
             (xy -2.54 1.27)
           )
-          (stroke (width 0) (type default))
+          (stroke (width 0) (type solid))
           (fill (type none))
         )
         (circle (center 2.032 0) (radius 0.508)
-          (stroke (width 0) (type default))
+          (stroke (width 0) (type solid))
           (fill (type none))
         )
         (pin passive line (at -5.08 0 0) (length 2.54)
@@ -365,6 +347,9 @@
   (junction (at 90.17 125.73) (diameter 0) (color 0 0 0 0)
     (uuid b15e6e36-892a-48cf-a550-7297a1d0dbe0)
   )
+  (junction (at 129.54 116.84) (diameter 0) (color 0 0 0 0)
+    (uuid b3f563e1-4628-44b4-a543-7064d8c54031)
+  )
   (junction (at 238.76 151.13) (diameter 0) (color 0 0 0 0)
     (uuid b856e5f6-6805-41b4-9e07-feb856be0616)
   )
@@ -373,6 +358,9 @@
   )
   (junction (at 113.03 66.04) (diameter 0) (color 0 0 0 0)
     (uuid babc0ff0-a694-4d6e-8748-e9e443e03f8b)
+  )
+  (junction (at 139.7 151.13) (diameter 0) (color 0 0 0 0)
+    (uuid bf2732f7-1445-41cf-b998-feadb2147a79)
   )
   (junction (at 40.64 100.33) (diameter 0) (color 0 0 0 0)
     (uuid bfe762f0-b58a-4a59-b35d-caeb7a8e5322)
@@ -827,6 +815,10 @@
     (stroke (width 0) (type default))
     (uuid 6c005d6b-da51-404b-9445-cd088150f40b)
   )
+  (wire (pts (xy 139.7 151.13) (xy 156.21 151.13))
+    (stroke (width 0) (type default))
+    (uuid 6cd216a3-f38f-4048-afb8-dd2c73d68886)
+  )
   (wire (pts (xy 46.99 91.44) (xy 46.99 116.84))
     (stroke (width 0) (type default))
     (uuid 6d459afa-5ed6-467d-a708-188f63f0dd01)
@@ -982,6 +974,10 @@
   (wire (pts (xy 245.11 19.05) (xy 245.11 40.64))
     (stroke (width 0) (type default))
     (uuid 9bf48cdb-a89d-4c0e-8b79-2491f7c672b8)
+  )
+  (wire (pts (xy 139.7 149.86) (xy 139.7 151.13))
+    (stroke (width 0) (type default))
+    (uuid 9c0d7afd-f8a3-4795-b88d-6e30fd5dcbb7)
   )
   (wire (pts (xy 40.64 99.06) (xy 40.64 100.33))
     (stroke (width 0) (type default))
@@ -1151,6 +1147,10 @@
     (stroke (width 0) (type default))
     (uuid d48fd60f-38e0-4092-93c5-1f77d69682e6)
   )
+  (wire (pts (xy 129.54 116.84) (xy 129.54 142.24))
+    (stroke (width 0) (type default))
+    (uuid d70cd80e-6b19-4c77-ae92-f6a3d5fe6b2c)
+  )
   (wire (pts (xy 106.68 48.26) (xy 106.68 49.53))
     (stroke (width 0) (type default))
     (uuid dcc4660a-637f-4e5e-97e1-4fe537c2b255)
@@ -1223,7 +1223,7 @@
     (stroke (width 0) (type default))
     (uuid f180f0d2-b454-43d8-9fc8-432ebf9e6003)
   )
-  (wire (pts (xy 123.19 151.13) (xy 156.21 151.13))
+  (wire (pts (xy 123.19 151.13) (xy 139.7 151.13))
     (stroke (width 0) (type default))
     (uuid f273cac2-322e-470d-b8bd-4a62ec90b11c)
   )
@@ -1508,6 +1508,10 @@
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid e3f3dfd3-0193-47f7-ba75-a9d642c68cfc)
   )
+  (text "FN2" (at 133.35 132.08 0)
+    (effects (font (size 2.54 2.54)) (justify left bottom))
+    (uuid ed3598d3-cec6-4ed4-b700-940ea0d5febb)
+  )
   (text "A" (at 50.8 81.28 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid ed6cc31a-258f-4f95-a0f6-ad3fb4d0f713)
@@ -1540,7 +1544,7 @@
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid fe82b458-4bb0-4fa8-885d-80407797aeea)
   )
-  (text "FN" (at 116.84 132.08 0)
+  (text "FN1" (at 116.84 132.08 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid fec806a0-b76f-4f6c-b0f3-4ed4b0746041)
   )
@@ -1626,7 +1630,7 @@
     (uuid f83a7ca8-5adb-4dc7-8a85-532e2fb5d4de)
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 35.56 40.64 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 35.56 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c51ee71)
     (property "Reference" "SW1" (at 35.56 33.401 0)
@@ -1641,8 +1645,8 @@
     (property "Datasheet" "" (at 35.56 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4997a95b-4a68-4b54-a123-881c9491611d))
-    (pin "2" (uuid 1fdb4eac-e776-4f6f-8370-03e8f5286c39))
+    (pin "1" (uuid ed9d8528-c136-43d1-b559-87e59aacb810))
+    (pin "2" (uuid a2f7dcae-baee-4f70-af0a-a0a4495eb2e5))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -1652,7 +1656,7 @@
     )
   )
 
-  (symbol (lib_id "Device:D") (at 40.64 44.45 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 40.64 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c51fbf3)
     (property "Reference" "D1" (at 35.56 43.18 90)
@@ -1667,8 +1671,8 @@
     (property "Datasheet" "~" (at 40.64 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cb4d5627-e0d0-41c8-80af-db141b1d0680))
-    (pin "2" (uuid 5316d6c5-fb05-40d1-8795-d03e4a218285))
+    (pin "1" (uuid af8a5fcb-199f-4637-9c3f-dda117d5a3e3))
+    (pin "2" (uuid 3d40d01e-8952-4735-8cb5-734955729b18))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -1678,7 +1682,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 52.07 40.64 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 52.07 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c51fc52)
     (property "Reference" "SW6" (at 52.07 33.401 0)
@@ -1693,8 +1697,8 @@
     (property "Datasheet" "" (at 52.07 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c1e04a2d-73bd-4bb7-9eaa-67944b602453))
-    (pin "2" (uuid 507a9c35-cdda-4630-8f01-994d1626799a))
+    (pin "1" (uuid 2c8ad842-72f3-40d9-89c4-4413142f3628))
+    (pin "2" (uuid 62f0a20c-e47c-4ea8-8f82-3ac5031b7bad))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -1704,7 +1708,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 35.56 66.04 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 35.56 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c520197)
     (property "Reference" "SW2" (at 35.56 58.801 0)
@@ -1719,8 +1723,8 @@
     (property "Datasheet" "" (at 35.56 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 42d385df-26a6-4a93-a829-45f1517dd31d))
-    (pin "2" (uuid dcfd0ae7-69d8-4377-90e0-5b3d411dbbc8))
+    (pin "1" (uuid 87b90a12-d3af-4958-9b1b-69d67d86bf3b))
+    (pin "2" (uuid 1cc4bb73-0986-4702-9b3a-93a187fb6876))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -1730,7 +1734,7 @@
     )
   )
 
-  (symbol (lib_id "Device:D") (at 40.64 69.85 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 40.64 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c520209)
     (property "Reference" "D2" (at 35.56 68.58 90)
@@ -1745,8 +1749,8 @@
     (property "Datasheet" "~" (at 40.64 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 91e7faeb-8750-456a-88c3-51c5bf9e73f3))
-    (pin "2" (uuid 73c3d49e-0178-4392-96b4-4977713f19c5))
+    (pin "1" (uuid d4b579f6-a448-4563-9997-3b71d3ec2a4e))
+    (pin "2" (uuid d2058f23-c403-42d2-8ee0-77bc96184989))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -1756,7 +1760,7 @@
     )
   )
 
-  (symbol (lib_id "Device:D") (at 57.15 44.45 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 57.15 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c52049a)
     (property "Reference" "D6" (at 52.07 43.18 90)
@@ -1771,8 +1775,8 @@
     (property "Datasheet" "~" (at 57.15 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 516880d9-6068-4c42-ae55-8d3b67a460a6))
-    (pin "2" (uuid 8974fa2d-9c9a-4835-8847-03ca0d30c286))
+    (pin "1" (uuid d68cd0ba-8293-45cc-acad-89e5c4aab7a1))
+    (pin "2" (uuid 2f4bf27a-926a-4c5e-abd5-1e47d8ebb5d2))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -1782,7 +1786,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 52.07 66.04 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 52.07 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c5205b0)
     (property "Reference" "SW7" (at 52.07 58.801 0)
@@ -1797,8 +1801,8 @@
     (property "Datasheet" "" (at 52.07 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a8cab4fc-01ff-4c7e-91a6-6d55d5bc63fc))
-    (pin "2" (uuid 6f8f85d2-5f0a-4c4c-928b-c6a7138c171c))
+    (pin "1" (uuid 8583c7b5-1043-465b-9a9a-54297fe610f7))
+    (pin "2" (uuid 97627dfc-37f9-4172-97b9-9ba391fb51f2))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -1808,7 +1812,7 @@
     )
   )
 
-  (symbol (lib_id "Device:D") (at 57.15 69.85 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 57.15 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c5205d6)
     (property "Reference" "D7" (at 52.07 68.58 90)
@@ -1823,8 +1827,8 @@
     (property "Datasheet" "~" (at 57.15 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7d2da1e1-3ebd-4674-b75a-d58ead557491))
-    (pin "2" (uuid cab674a0-2d21-47ac-8b67-c7d41b3d8fb5))
+    (pin "1" (uuid 75738b2b-1c6a-4f01-a9c0-869afa88e4e9))
+    (pin "2" (uuid a52660a8-03ff-4ac2-b861-5c229de9f3b8))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -1834,7 +1838,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 35.56 91.44 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 35.56 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c52094d)
     (property "Reference" "SW3" (at 35.56 84.201 0)
@@ -1849,8 +1853,8 @@
     (property "Datasheet" "" (at 35.56 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f1a1255a-b4a4-4f94-9636-4de0714c3e8f))
-    (pin "2" (uuid 91747a02-99cb-41e2-bb85-32d73105b7cd))
+    (pin "1" (uuid 64358f44-f483-4874-87cd-55678d4daeae))
+    (pin "2" (uuid 58b492ae-1909-4acc-aeb6-7a476640043a))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -1860,7 +1864,7 @@
     )
   )
 
-  (symbol (lib_id "Device:D") (at 40.64 95.25 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 40.64 95.25 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c5209fe)
     (property "Reference" "D3" (at 35.56 93.98 90)
@@ -1875,8 +1879,8 @@
     (property "Datasheet" "~" (at 40.64 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 872a5369-a4ca-4400-9987-4ad1d88b93c2))
-    (pin "2" (uuid 38dfd31f-0e07-4247-8812-bf9b77132322))
+    (pin "1" (uuid 2f7f2785-1558-4b6c-ad9d-7a73d2439edd))
+    (pin "2" (uuid e40e248d-d5b6-40dc-85fa-4bc6033ff199))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -1886,7 +1890,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 35.56 116.84 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 35.56 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c520f5d)
     (property "Reference" "SW4" (at 35.56 109.601 0)
@@ -1901,8 +1905,8 @@
     (property "Datasheet" "" (at 35.56 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid be437406-9805-4db0-a4b2-f332e0944f5a))
-    (pin "2" (uuid a8b0b530-ef67-41d0-af84-cc63209dda44))
+    (pin "1" (uuid 2ce4353e-49e9-44f0-9597-6619ce618e3c))
+    (pin "2" (uuid 9bdc028e-0d7d-4f9a-82ca-cc4675c5e105))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -1912,7 +1916,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 35.56 142.24 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 35.56 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c521001)
     (property "Reference" "SW5" (at 35.56 135.001 0)
@@ -1927,8 +1931,8 @@
     (property "Datasheet" "" (at 35.56 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f3092abb-3464-4799-af1c-8f979bfc1a6c))
-    (pin "2" (uuid b4c72fac-16b7-49af-8b99-2fddb01d22ba))
+    (pin "1" (uuid ff9d7566-0db0-437f-ab31-01eb9761a8b8))
+    (pin "2" (uuid ebc01191-0416-4afc-9f4a-133c418dfa7d))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -1938,7 +1942,7 @@
     )
   )
 
-  (symbol (lib_id "Device:D") (at 40.64 120.65 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 40.64 120.65 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c521072)
     (property "Reference" "D4" (at 35.56 119.38 90)
@@ -1953,8 +1957,8 @@
     (property "Datasheet" "~" (at 40.64 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0c3cf2ef-7d08-4ecf-987b-399e3cdd69a7))
-    (pin "2" (uuid 4aafac11-61ee-4e86-a56f-257fd7b34b91))
+    (pin "1" (uuid cd3eac01-cba0-4365-9f5b-932acdfea840))
+    (pin "2" (uuid 7051eced-a397-4d71-bbd6-b87c5ffa91cd))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -1964,7 +1968,7 @@
     )
   )
 
-  (symbol (lib_id "Device:D") (at 40.64 146.05 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 40.64 146.05 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c5210b4)
     (property "Reference" "D5" (at 35.56 144.78 90)
@@ -1979,8 +1983,8 @@
     (property "Datasheet" "~" (at 40.64 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 212335f8-8ec9-4896-b743-e96108410193))
-    (pin "2" (uuid 70f553e8-e531-4689-9462-2913f147df71))
+    (pin "1" (uuid 1a51812a-a634-4488-be18-e813737d2059))
+    (pin "2" (uuid 4aaddc6b-1bb5-4394-9afc-18122f68309a))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -1990,7 +1994,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 52.07 91.44 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 52.07 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c52365c)
     (property "Reference" "SW8" (at 52.07 84.201 0)
@@ -2005,8 +2009,8 @@
     (property "Datasheet" "" (at 52.07 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8897fa94-357c-48af-8cb9-8dbeff6e3dde))
-    (pin "2" (uuid ce641e72-b531-48c2-9eba-662488307df5))
+    (pin "1" (uuid b0580177-d7a4-49f5-8f5f-b541c44382ad))
+    (pin "2" (uuid b986ef40-b379-4409-bece-07117e0414d9))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2016,7 +2020,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 52.07 116.84 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 52.07 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c5236a2)
     (property "Reference" "SW9" (at 52.07 109.601 0)
@@ -2031,8 +2035,8 @@
     (property "Datasheet" "" (at 52.07 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ec04e2ca-9fbd-4f7f-b228-588d9f80fc97))
-    (pin "2" (uuid 238aed0b-df5a-4417-917a-179c4bdc90b9))
+    (pin "1" (uuid c823aa1d-a88f-40d6-87eb-cf58cdce9f24))
+    (pin "2" (uuid 77a7d6e3-b5c3-42c7-a2db-197724ddf37d))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2042,7 +2046,7 @@
     )
   )
 
-  (symbol (lib_id "Device:D") (at 57.15 95.25 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 57.15 95.25 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c52372a)
     (property "Reference" "D8" (at 52.07 93.98 90)
@@ -2057,8 +2061,8 @@
     (property "Datasheet" "~" (at 57.15 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e2e90deb-bbf9-48fc-b4ee-ac9b4de3ec62))
-    (pin "2" (uuid 53fd4e05-ff4b-46f6-bf44-3b449978d1d7))
+    (pin "1" (uuid c021467c-c9c5-4880-bfd1-674a2f8d4faf))
+    (pin "2" (uuid 868be435-dbe4-4487-8442-c203239c8656))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2068,7 +2072,7 @@
     )
   )
 
-  (symbol (lib_id "Device:D") (at 57.15 120.65 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 57.15 120.65 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c523774)
     (property "Reference" "D9" (at 52.07 119.38 90)
@@ -2083,8 +2087,8 @@
     (property "Datasheet" "~" (at 57.15 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 83b2614c-f11b-4e5d-97ab-4d77fcaac1cd))
-    (pin "2" (uuid 07efa818-064d-4b5e-ac92-1f1725d658d6))
+    (pin "1" (uuid ced60050-6c04-4574-b11a-3069d6c23ff8))
+    (pin "2" (uuid 7bbb4b0a-8116-4ae0-9be5-ed91b7988daf))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2094,7 +2098,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 68.58 40.64 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 68.58 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c63daf2)
     (property "Reference" "SW10" (at 68.58 33.401 0)
@@ -2109,8 +2113,8 @@
     (property "Datasheet" "" (at 68.58 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1aab2b8a-673c-49b6-a3f6-86228fce2b90))
-    (pin "2" (uuid d30eb3aa-19d1-4f72-b0ac-8369544b9fac))
+    (pin "1" (uuid 74d5eba1-a2c6-4197-99d2-363f133b75dc))
+    (pin "2" (uuid 5661f042-bbfc-4fc5-8bc3-819b1be6c258))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2120,7 +2124,7 @@
     )
   )
 
-  (symbol (lib_id "Device:D") (at 73.66 44.45 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 73.66 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c63dafa)
     (property "Reference" "D10" (at 68.58 43.18 90)
@@ -2135,8 +2139,8 @@
     (property "Datasheet" "~" (at 73.66 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 813fbc77-01c3-4827-8d20-81f209d4923f))
-    (pin "2" (uuid 867a4233-7ba5-4407-ab6e-222d0954914f))
+    (pin "1" (uuid d189575e-892c-4c9b-a183-e3c293815934))
+    (pin "2" (uuid ba93cea0-dbd9-4eef-84dd-57b48642da56))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2146,7 +2150,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 68.58 66.04 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 68.58 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c63db01)
     (property "Reference" "SW11" (at 68.58 58.801 0)
@@ -2161,8 +2165,8 @@
     (property "Datasheet" "" (at 68.58 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 55f19fb0-f7d7-4419-8146-22c9d2b33757))
-    (pin "2" (uuid 20684adf-5936-4e5a-8065-8c70e059564b))
+    (pin "1" (uuid 1cb22206-ffd6-4f6d-aaee-c7303888e50e))
+    (pin "2" (uuid ed6704be-cd0f-4630-aa3c-9acf1bdaba33))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2172,7 +2176,7 @@
     )
   )
 
-  (symbol (lib_id "Device:D") (at 73.66 69.85 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 73.66 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c63db08)
     (property "Reference" "D11" (at 68.58 68.58 90)
@@ -2187,8 +2191,8 @@
     (property "Datasheet" "~" (at 73.66 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 75ec5cc9-4941-43b4-90ff-1024491a80c0))
-    (pin "2" (uuid c02a16d5-3ec0-47cd-b0a3-ba2aacf84acf))
+    (pin "1" (uuid 101f0c00-51e4-4958-a883-bdb5f00e8c91))
+    (pin "2" (uuid 433390c7-b13c-471e-8ba3-d238d0233938))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2198,7 +2202,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 68.58 91.44 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 68.58 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c63db13)
     (property "Reference" "SW12" (at 68.58 84.201 0)
@@ -2213,8 +2217,8 @@
     (property "Datasheet" "" (at 68.58 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c8c7e1df-3bec-4b32-b694-915bba1205a3))
-    (pin "2" (uuid 281ad60d-11fe-4f42-b45d-ff84098a0789))
+    (pin "1" (uuid 88f634b8-568c-41fe-8d44-ccde2f7e7d69))
+    (pin "2" (uuid 7006119c-3a03-4df7-8670-5d151cf0c628))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2224,7 +2228,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 68.58 116.84 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 68.58 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c63db1a)
     (property "Reference" "SW13" (at 68.58 109.601 0)
@@ -2239,8 +2243,8 @@
     (property "Datasheet" "" (at 68.58 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid db0f7f99-0333-4dbd-a017-8058282d11f4))
-    (pin "2" (uuid 3e6c7635-2994-47cf-99e7-aaa6fd69bcb5))
+    (pin "1" (uuid 00f7a4d3-45d2-48a8-ba7a-726ae1679e35))
+    (pin "2" (uuid bb5ec95b-892e-4353-ae43-15d02b111afc))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2250,7 +2254,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 68.58 142.24 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 68.58 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c63db22)
     (property "Reference" "SW14" (at 68.58 135.001 0)
@@ -2265,8 +2269,8 @@
     (property "Datasheet" "" (at 68.58 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f93aa9f1-dbef-4b8c-bfab-27d6c6dbf7e9))
-    (pin "2" (uuid ed9d9467-7a35-4378-a684-8e5a9067eb8c))
+    (pin "1" (uuid 934614b1-3d9b-4073-bc81-d6b64b4dfdef))
+    (pin "2" (uuid 7ad04703-b561-40ee-85c2-7859d4875516))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2276,7 +2280,7 @@
     )
   )
 
-  (symbol (lib_id "Device:D") (at 73.66 95.25 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 73.66 95.25 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c63db29)
     (property "Reference" "D12" (at 68.58 93.98 90)
@@ -2291,8 +2295,8 @@
     (property "Datasheet" "~" (at 73.66 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 31638c78-588a-482c-81c9-47ce77e41049))
-    (pin "2" (uuid 078772d0-5558-4dec-ac1c-c166cf1c5b27))
+    (pin "1" (uuid 60c0b837-31d0-4749-a130-8688cba54525))
+    (pin "2" (uuid c9748cda-f130-4054-a16e-3473fa830727))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2302,7 +2306,7 @@
     )
   )
 
-  (symbol (lib_id "Device:D") (at 73.66 120.65 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 73.66 120.65 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c63db30)
     (property "Reference" "D13" (at 68.58 119.38 90)
@@ -2317,8 +2321,8 @@
     (property "Datasheet" "~" (at 73.66 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 653c58ae-d34c-4203-a09c-579ee0e531df))
-    (pin "2" (uuid 6b23da17-7a5f-4015-b19e-ab27d3a07b8c))
+    (pin "1" (uuid dbd29e9b-0132-4c22-842a-380401e240f9))
+    (pin "2" (uuid 8ec3d34c-a0b2-43fe-8151-55e8c31c84c1))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2328,7 +2332,7 @@
     )
   )
 
-  (symbol (lib_id "Device:D") (at 73.66 146.05 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 73.66 146.05 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c63db37)
     (property "Reference" "D14" (at 68.58 144.78 90)
@@ -2343,8 +2347,8 @@
     (property "Datasheet" "~" (at 73.66 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6036af53-7002-42ca-8e93-153fc10c7688))
-    (pin "2" (uuid cb87e47f-d5c0-4472-bfec-5047498ad08e))
+    (pin "1" (uuid 9bc19559-f11b-476b-9533-5a3ad74b1f0e))
+    (pin "2" (uuid 6ed58290-5f22-4528-99e3-8965648dc58a))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2354,7 +2358,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 85.09 40.64 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 85.09 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c63e34d)
     (property "Reference" "SW15" (at 85.09 33.401 0)
@@ -2369,8 +2373,8 @@
     (property "Datasheet" "" (at 85.09 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4bca914a-e0ce-4b17-87d7-1eceeaf9cf6a))
-    (pin "2" (uuid 3e3ca8fc-54e8-416d-96b6-c41d590d6324))
+    (pin "1" (uuid 72dcaabb-2198-4455-b48f-409cb2b57f6d))
+    (pin "2" (uuid 888d26c8-4283-495e-b543-3bfbbba95860))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2380,7 +2384,7 @@
     )
   )
 
-  (symbol (lib_id "Device:D") (at 90.17 44.45 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 90.17 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c63e355)
     (property "Reference" "D15" (at 85.09 43.18 90)
@@ -2395,8 +2399,8 @@
     (property "Datasheet" "~" (at 90.17 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 828b93ab-735e-459d-9c18-f4bbe83aac4c))
-    (pin "2" (uuid 94681e9a-894d-4276-b5c8-a637da0e1e57))
+    (pin "1" (uuid 26e73226-2fa8-42ed-9d5c-84a1eeb8ef1c))
+    (pin "2" (uuid 63286a6e-db66-4b1b-a2c9-04fdd2e9573e))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2406,7 +2410,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 85.09 66.04 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 85.09 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c63e35c)
     (property "Reference" "SW16" (at 85.09 58.801 0)
@@ -2421,8 +2425,8 @@
     (property "Datasheet" "" (at 85.09 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a145477f-a958-470a-8334-5efca8c65b88))
-    (pin "2" (uuid dbfcec9f-56c5-460e-a6be-7aeedd52b6bf))
+    (pin "1" (uuid b6c3ff8c-251b-4a5e-95ee-6eb8aed88306))
+    (pin "2" (uuid 16ee19ca-f99c-4ea4-9112-e1890d28bc45))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2432,7 +2436,7 @@
     )
   )
 
-  (symbol (lib_id "Device:D") (at 90.17 69.85 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 90.17 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c63e363)
     (property "Reference" "D16" (at 85.09 68.58 90)
@@ -2447,8 +2451,8 @@
     (property "Datasheet" "~" (at 90.17 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c27c1475-798c-46cb-a047-fac4ebb38ab5))
-    (pin "2" (uuid 0a239fab-7ad8-456c-b7ed-4c3a19dee077))
+    (pin "1" (uuid cf941830-d1c8-4609-93d3-66265ec4d53f))
+    (pin "2" (uuid 908af0f2-45c3-4c0e-9fb3-eb69fa813336))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2458,7 +2462,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 85.09 91.44 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 85.09 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c63e36e)
     (property "Reference" "SW17" (at 85.09 84.201 0)
@@ -2473,8 +2477,8 @@
     (property "Datasheet" "" (at 85.09 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cc7ee228-f27e-4d60-a6d5-e703af3c4a78))
-    (pin "2" (uuid 2a636406-7914-4bd6-acb4-42828900e4ba))
+    (pin "1" (uuid f7f0b109-fd63-48cf-95a4-c94a7289c089))
+    (pin "2" (uuid f081b207-dd06-4552-a7eb-bfa0d0b00f5f))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2484,7 +2488,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 85.09 116.84 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 85.09 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c63e375)
     (property "Reference" "SW18" (at 85.09 109.601 0)
@@ -2499,8 +2503,8 @@
     (property "Datasheet" "" (at 85.09 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f87d10a6-2e6b-4fb3-9356-b9b03807af84))
-    (pin "2" (uuid d454835f-8784-4ed7-bad6-d4de471cf2d8))
+    (pin "1" (uuid df8be3d2-757a-408c-8793-0760cd51ed16))
+    (pin "2" (uuid 74b6aa6c-98ff-4307-bdae-ce8369ff62c0))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2510,7 +2514,7 @@
     )
   )
 
-  (symbol (lib_id "Device:D") (at 90.17 95.25 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 90.17 95.25 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c63e384)
     (property "Reference" "D17" (at 85.09 93.98 90)
@@ -2525,8 +2529,8 @@
     (property "Datasheet" "~" (at 90.17 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5d8eff6b-e7e3-41eb-8e62-bc4b50f6647f))
-    (pin "2" (uuid 2d5c4bf7-19db-4c70-b176-4e102be03ffe))
+    (pin "1" (uuid 6e4396fc-1025-4d48-8e77-9990ae1ac4b1))
+    (pin "2" (uuid a97b6411-363a-4003-8460-0b7e11f4885c))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2536,7 +2540,7 @@
     )
   )
 
-  (symbol (lib_id "Device:D") (at 90.17 120.65 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 90.17 120.65 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c63e38b)
     (property "Reference" "D18" (at 85.09 119.38 90)
@@ -2551,8 +2555,8 @@
     (property "Datasheet" "~" (at 90.17 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d99e9a95-bc13-46bf-9df5-889461073731))
-    (pin "2" (uuid 04139a6c-1831-45d2-a02d-5fcc996487df))
+    (pin "1" (uuid 3e6a4d6b-4698-460a-a755-21265d9fbc44))
+    (pin "2" (uuid 370a4c2a-f8de-46d6-a90d-c74d62cdfdef))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2562,7 +2566,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 101.6 40.64 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 101.6 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c63f108)
     (property "Reference" "SW19" (at 101.6 33.401 0)
@@ -2577,8 +2581,8 @@
     (property "Datasheet" "" (at 101.6 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0e990a4e-da79-43e8-bf3e-1495f9e0a22f))
-    (pin "2" (uuid 2be0d910-3a72-4c53-8833-f7f130a920e9))
+    (pin "1" (uuid 9cb31bb4-4326-4581-8221-790aa593bc33))
+    (pin "2" (uuid 7b4fa5f6-e32e-4841-8a30-15b788733363))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2588,7 +2592,7 @@
     )
   )
 
-  (symbol (lib_id "Device:D") (at 106.68 44.45 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 106.68 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c63f110)
     (property "Reference" "D19" (at 101.6 43.18 90)
@@ -2603,8 +2607,8 @@
     (property "Datasheet" "~" (at 106.68 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e9b0948b-3885-464b-86e2-3317a6ec9e5c))
-    (pin "2" (uuid 507c466e-cb08-4d06-ad22-c0d3f02e83f2))
+    (pin "1" (uuid 3621f2dc-d882-4639-99a3-85fde87fa1d2))
+    (pin "2" (uuid e1dd0075-66b1-498f-aef2-b620ac8ec13f))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2614,7 +2618,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 101.6 66.04 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 101.6 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c63f117)
     (property "Reference" "SW20" (at 101.6 58.801 0)
@@ -2629,8 +2633,8 @@
     (property "Datasheet" "" (at 101.6 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6de41520-9b31-4a1b-9c1a-b6a4b00b3e3a))
-    (pin "2" (uuid f4e86bfc-f03d-4d46-b0fb-e22d1912d60a))
+    (pin "1" (uuid b201584c-ae27-4708-9c59-bf89deb3d3d6))
+    (pin "2" (uuid 143edf64-510e-42ac-aa6e-b019ba96285a))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2640,7 +2644,7 @@
     )
   )
 
-  (symbol (lib_id "Device:D") (at 106.68 69.85 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 106.68 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c63f11e)
     (property "Reference" "D20" (at 101.6 68.58 90)
@@ -2655,8 +2659,8 @@
     (property "Datasheet" "~" (at 106.68 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b92722bf-2f9b-4a35-b45b-85b1bef21422))
-    (pin "2" (uuid 797e8889-ba51-47df-8be1-33aee32df455))
+    (pin "1" (uuid ceb2ff66-a656-4ddb-93d9-0eee488e014a))
+    (pin "2" (uuid 9ebb8eb7-3b8f-4edb-8b48-59673197be39))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2666,7 +2670,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 101.6 91.44 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 101.6 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c63f129)
     (property "Reference" "SW21" (at 101.6 84.201 0)
@@ -2681,8 +2685,8 @@
     (property "Datasheet" "" (at 101.6 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 636758a3-6b6e-45a3-a361-3343a9cbfeba))
-    (pin "2" (uuid 8e86b175-4d47-4e71-95fa-7069d566ce4b))
+    (pin "1" (uuid 16ab0cfc-7f51-4083-9deb-8c7792296291))
+    (pin "2" (uuid 859e07dc-0a5b-4928-946f-7f2d075b2e24))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2692,7 +2696,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 101.6 116.84 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 101.6 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c63f130)
     (property "Reference" "SW22" (at 101.6 109.601 0)
@@ -2707,8 +2711,8 @@
     (property "Datasheet" "" (at 101.6 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b40742d0-7b95-4b0e-8066-0b33e6ef2b7d))
-    (pin "2" (uuid 35294e4e-9f78-4cf5-b8ef-0f4e20d68d30))
+    (pin "1" (uuid 58fbbff6-f946-409f-94c1-ab14ea5ced8d))
+    (pin "2" (uuid 7a39a087-ac8e-44ed-9b31-2b6f63f2638b))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2718,7 +2722,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 101.6 142.24 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 101.6 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c63f138)
     (property "Reference" "SW23" (at 101.6 135.001 0)
@@ -2733,8 +2737,8 @@
     (property "Datasheet" "" (at 101.6 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9b5be368-b217-4d4e-b89b-187e8890cf1e))
-    (pin "2" (uuid 056dac39-982c-47f2-9f67-8c136459ee0f))
+    (pin "1" (uuid e30b0079-d4e7-4fc9-8aaa-f095843f1913))
+    (pin "2" (uuid 0c3c6848-4c86-48cf-b85c-51a84ebf69b2))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2744,7 +2748,7 @@
     )
   )
 
-  (symbol (lib_id "Device:D") (at 106.68 95.25 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 106.68 95.25 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c63f13f)
     (property "Reference" "D21" (at 101.6 93.98 90)
@@ -2759,8 +2763,8 @@
     (property "Datasheet" "~" (at 106.68 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 69ebc702-aa5e-48e3-a369-223b3f193e80))
-    (pin "2" (uuid 8ca9f6a8-7bb7-4ab6-af72-46b82b11e41e))
+    (pin "1" (uuid 62870415-32cf-4e74-8208-9a5ee0a143fb))
+    (pin "2" (uuid 7d65580c-a22a-478d-bf11-6e9d4057a6f9))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2770,7 +2774,7 @@
     )
   )
 
-  (symbol (lib_id "Device:D") (at 106.68 120.65 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 106.68 120.65 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c63f146)
     (property "Reference" "D22" (at 101.6 119.38 90)
@@ -2785,8 +2789,8 @@
     (property "Datasheet" "~" (at 106.68 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9d936f41-3c22-4537-954b-bb78bb199c0e))
-    (pin "2" (uuid 67caaffe-c334-4ca9-a422-00f5cc8d2f97))
+    (pin "1" (uuid 029239cc-18fe-439f-886a-88d204340ef0))
+    (pin "2" (uuid 27394739-7824-444e-a71f-859debd73172))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2796,7 +2800,7 @@
     )
   )
 
-  (symbol (lib_id "Device:D") (at 106.68 146.05 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 106.68 146.05 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c63f14d)
     (property "Reference" "D23" (at 101.6 144.78 90)
@@ -2811,8 +2815,8 @@
     (property "Datasheet" "~" (at 106.68 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b5db55be-16e9-486b-9c1b-b8f34d2f5ddf))
-    (pin "2" (uuid af9c3457-b212-41a1-af85-8e8a9fff976d))
+    (pin "1" (uuid 853a1cf7-9557-4c05-a562-e8773a3a8ac0))
+    (pin "2" (uuid fbea1a28-026b-4825-bd5d-704e484755e7))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2822,7 +2826,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 118.11 40.64 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 118.11 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c6405ea)
     (property "Reference" "SW24" (at 118.11 33.401 0)
@@ -2837,8 +2841,8 @@
     (property "Datasheet" "" (at 118.11 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e09c06f5-7817-47d3-a119-80118964d4c2))
-    (pin "2" (uuid f5944ea1-9fdf-48c8-9e37-4df042ef5e85))
+    (pin "1" (uuid 361fb08d-2f31-40e0-a4bd-1f66ff46e8b7))
+    (pin "2" (uuid 9d931194-e5e4-4d5a-b7e7-732cf8c637b0))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2848,7 +2852,7 @@
     )
   )
 
-  (symbol (lib_id "Device:D") (at 123.19 44.45 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 123.19 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c6405f2)
     (property "Reference" "D24" (at 118.11 43.18 90)
@@ -2863,8 +2867,8 @@
     (property "Datasheet" "~" (at 123.19 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 37e7ca6d-0bce-4462-85ff-b1d76fef00a2))
-    (pin "2" (uuid fe060919-a1b0-4d7c-ac3d-7cccd661a4e2))
+    (pin "1" (uuid 167b5329-45fd-421f-897b-209d73d548d5))
+    (pin "2" (uuid 38609976-4164-4db0-b537-9006848051ee))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2874,7 +2878,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 118.11 66.04 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 118.11 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c6405f9)
     (property "Reference" "SW25" (at 118.11 58.801 0)
@@ -2889,8 +2893,8 @@
     (property "Datasheet" "" (at 118.11 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 205e9c22-331f-462f-bd93-ac4b2e621021))
-    (pin "2" (uuid ec326bc1-0680-484f-b1e3-9e62b009edca))
+    (pin "1" (uuid 47849388-39fb-470b-b289-d8f4ba744917))
+    (pin "2" (uuid 3e5a2dd6-c8df-4aae-be56-c81a79d90d1b))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2900,7 +2904,7 @@
     )
   )
 
-  (symbol (lib_id "Device:D") (at 123.19 69.85 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 123.19 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c640600)
     (property "Reference" "D25" (at 118.11 68.58 90)
@@ -2915,8 +2919,8 @@
     (property "Datasheet" "~" (at 123.19 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3601cf2d-3821-499e-aae2-cd35d682f023))
-    (pin "2" (uuid 25d88517-c0f5-4216-8a3c-09316a8778a6))
+    (pin "1" (uuid a623e7d4-e436-43a8-a394-44d1e0b5729e))
+    (pin "2" (uuid 5d1eda5b-fe18-4832-b0cc-b52170ee9716))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2926,7 +2930,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 118.11 91.44 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 118.11 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c64060b)
     (property "Reference" "SW26" (at 118.11 84.201 0)
@@ -2941,8 +2945,8 @@
     (property "Datasheet" "" (at 118.11 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 49616b37-89ed-4d3e-be0c-ba2d51ff7db7))
-    (pin "2" (uuid 96ad3c09-b7cc-4daa-9739-b3c846a5645e))
+    (pin "1" (uuid 3c6f6a8d-d614-4341-a58f-4887215f1e0f))
+    (pin "2" (uuid f12fac80-7a5f-47dc-9a91-0939898889c4))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2952,7 +2956,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 118.11 116.84 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 118.11 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c640612)
     (property "Reference" "SW27" (at 118.11 109.601 0)
@@ -2967,8 +2971,8 @@
     (property "Datasheet" "" (at 118.11 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d571e087-7bbb-48c6-8e47-4ccded09c9ed))
-    (pin "2" (uuid c1e08a51-a5e3-40a0-ae2f-194eed2ae1b8))
+    (pin "1" (uuid ee7c571b-ce58-4605-bbac-f8204cca7afb))
+    (pin "2" (uuid eddab7e4-0cf1-414f-a280-a7ab20b2e3d4))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -2978,7 +2982,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 118.11 142.24 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 118.11 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c64061a)
     (property "Reference" "SW28" (at 118.11 135.001 0)
@@ -2993,8 +2997,8 @@
     (property "Datasheet" "" (at 118.11 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e744621b-44a6-4c91-a95b-0a3eada2336a))
-    (pin "2" (uuid 06ba1c6c-c2f5-49e0-a8ee-645b0e82c999))
+    (pin "1" (uuid 7822e566-583e-4774-93cc-844b79230a64))
+    (pin "2" (uuid 59f092a2-9c1f-4bc3-8221-212904738dde))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -3004,7 +3008,7 @@
     )
   )
 
-  (symbol (lib_id "Device:D") (at 123.19 95.25 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 123.19 95.25 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c640621)
     (property "Reference" "D26" (at 118.11 93.98 90)
@@ -3019,8 +3023,8 @@
     (property "Datasheet" "~" (at 123.19 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8e4d334b-a881-4ed4-b1f7-59703c26112f))
-    (pin "2" (uuid e9080122-d4a9-4fda-abef-7f9f545d9019))
+    (pin "1" (uuid fec7d2bc-8b92-4a96-8b53-8d8a8b39b5cd))
+    (pin "2" (uuid 22dd4700-1ffc-41db-8370-e0dfd3e3c028))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -3030,7 +3034,7 @@
     )
   )
 
-  (symbol (lib_id "Device:D") (at 123.19 120.65 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 123.19 120.65 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c640628)
     (property "Reference" "D27" (at 118.11 119.38 90)
@@ -3045,8 +3049,8 @@
     (property "Datasheet" "~" (at 123.19 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6fc76398-1f5e-44e7-bbe3-4c3d87d38a61))
-    (pin "2" (uuid 799e4598-4aba-4efa-8293-306304ef4769))
+    (pin "1" (uuid 667db65d-2fd6-4e6c-9ac6-c6e32bdc8013))
+    (pin "2" (uuid 028368b1-816a-4662-9fcc-ff70ccddff9a))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -3056,7 +3060,7 @@
     )
   )
 
-  (symbol (lib_id "Device:D") (at 123.19 146.05 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 123.19 146.05 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c64062f)
     (property "Reference" "D28" (at 118.11 144.78 90)
@@ -3071,8 +3075,8 @@
     (property "Datasheet" "~" (at 123.19 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e981c8e5-8d2e-412d-90d8-1753bbec31c0))
-    (pin "2" (uuid c3823745-6cf5-4013-825d-3163f0aecf89))
+    (pin "1" (uuid 49e27e35-ed1c-40b7-8c5f-d46bc18eccff))
+    (pin "2" (uuid 75e82eae-7239-474b-a333-f7089bcbaf4e))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -3082,7 +3086,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 134.62 40.64 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 134.62 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c64246e)
     (property "Reference" "SW29" (at 134.62 33.401 0)
@@ -3097,8 +3101,8 @@
     (property "Datasheet" "" (at 134.62 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 83a8f421-7643-47f8-a3ca-975e7d3f74dd))
-    (pin "2" (uuid 3913e22a-b0a4-402c-9daa-6b9beb9db9d9))
+    (pin "1" (uuid 6e170ebf-293e-4866-a7b1-5543c7c3baf1))
+    (pin "2" (uuid fde1b336-e44d-4594-afd1-e16484329b13))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -3108,7 +3112,7 @@
     )
   )
 
-  (symbol (lib_id "Device:D") (at 139.7 44.45 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 139.7 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c642476)
     (property "Reference" "D29" (at 134.62 43.18 90)
@@ -3123,8 +3127,8 @@
     (property "Datasheet" "~" (at 139.7 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0db7e379-3f77-4f9e-9a70-ea1c1c8b6ab2))
-    (pin "2" (uuid 1a27efd1-a592-4b1c-aa20-b47048fd1b29))
+    (pin "1" (uuid 72190123-b2c1-4c0e-b770-dfc61d5b84e5))
+    (pin "2" (uuid 24deea5e-afab-413c-9d77-44161b21d81b))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -3134,7 +3138,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 134.62 66.04 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 134.62 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c64247d)
     (property "Reference" "SW30" (at 134.62 58.801 0)
@@ -3149,8 +3153,8 @@
     (property "Datasheet" "" (at 134.62 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 05248662-25ee-40fa-ae02-f4de6d5c8a2a))
-    (pin "2" (uuid a9f85203-e664-47a2-9004-8e4d7c929920))
+    (pin "1" (uuid 71a4932a-978f-4b2e-a381-b482991622fa))
+    (pin "2" (uuid bd60cbc4-907f-4951-9a52-910aa09f3c34))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -3160,7 +3164,7 @@
     )
   )
 
-  (symbol (lib_id "Device:D") (at 139.7 69.85 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 139.7 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c642484)
     (property "Reference" "D30" (at 134.62 68.58 90)
@@ -3175,8 +3179,8 @@
     (property "Datasheet" "~" (at 139.7 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a540bf65-fc33-43aa-8d6d-c1c3b9d9fc10))
-    (pin "2" (uuid dc351c27-644a-48e5-a300-6d9f463d2b01))
+    (pin "1" (uuid f1d27ce9-7f25-474e-87f9-963943b0bfb2))
+    (pin "2" (uuid bac09f11-6022-4367-b495-0135673155ff))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -3186,7 +3190,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 134.62 91.44 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 134.62 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c64248f)
     (property "Reference" "SW31" (at 134.62 84.201 0)
@@ -3201,8 +3205,8 @@
     (property "Datasheet" "" (at 134.62 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bb394dbe-2013-4a3e-bdcd-1dbd91ab6533))
-    (pin "2" (uuid 836036df-9a0b-4617-b378-27acb417be06))
+    (pin "1" (uuid 79ed195c-c6d9-4b8a-b2fd-78442bc11f0c))
+    (pin "2" (uuid b75e5593-26b5-47af-a8c0-3cd6b90de760))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -3212,7 +3216,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 134.62 116.84 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 134.62 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c642496)
     (property "Reference" "SW32" (at 134.62 109.601 0)
@@ -3227,8 +3231,8 @@
     (property "Datasheet" "" (at 134.62 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bb644ce9-572c-48f7-b4d9-c38b2d80974e))
-    (pin "2" (uuid b5cd69a3-1045-4b5f-a228-68e2b6a8915e))
+    (pin "1" (uuid f705d31b-2511-4872-8309-fcfaa50eaf46))
+    (pin "2" (uuid 60adf0f0-a73d-498c-a9c9-344a90f848de))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -3238,7 +3242,7 @@
     )
   )
 
-  (symbol (lib_id "Device:D") (at 139.7 95.25 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 139.7 95.25 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c6424a5)
     (property "Reference" "D31" (at 134.62 93.98 90)
@@ -3253,8 +3257,8 @@
     (property "Datasheet" "~" (at 139.7 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5c8eca0d-c55b-4d03-b3e4-b1855ed534ea))
-    (pin "2" (uuid 84d5608c-417b-4a2d-b4f9-8f58403c259d))
+    (pin "1" (uuid 0138f57b-ff06-461b-b124-dd0892657af3))
+    (pin "2" (uuid f4c679ec-be84-4eb9-82a7-bfb7cd84e36c))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -3264,7 +3268,7 @@
     )
   )
 
-  (symbol (lib_id "Device:D") (at 139.7 120.65 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 139.7 120.65 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c6424ac)
     (property "Reference" "D32" (at 134.62 119.38 90)
@@ -3279,8 +3283,8 @@
     (property "Datasheet" "~" (at 139.7 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 43202f0b-4474-4ba4-b53f-7c23b235331e))
-    (pin "2" (uuid 5c17e6c0-4af6-4237-ab96-441c60f591c1))
+    (pin "1" (uuid 8ede9ccb-0d2f-4f74-bc02-4c4a52074913))
+    (pin "2" (uuid fa2d3ad9-3105-448d-8855-3d602b8f8bbd))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
@@ -3290,10 +3294,10 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 151.13 40.64 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 151.13 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c644b63)
-    (property "Reference" "SW33" (at 151.13 33.401 0)
+    (property "Reference" "SW34" (at 151.13 33.401 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 151.13 35.7124 0)
@@ -3305,21 +3309,21 @@
     (property "Datasheet" "" (at 151.13 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bdd344ce-f3d5-4eb7-aecc-d8c3452c4a28))
-    (pin "2" (uuid de4e5ae7-f4de-43a0-9bd0-194d375bd9b8))
+    (pin "1" (uuid 72c33ded-64a7-4761-8bcd-0539ead3ff9b))
+    (pin "2" (uuid a40b70ca-7b61-48a2-ba9c-55f4c68ab5a7))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "SW33") (unit 1)
+          (reference "SW34") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D") (at 156.21 44.45 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 156.21 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c644b6b)
-    (property "Reference" "D33" (at 151.13 43.18 90)
+    (property "Reference" "D34" (at 151.13 43.18 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 152.4 45.72 90)
@@ -3331,21 +3335,21 @@
     (property "Datasheet" "~" (at 156.21 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0ca13acf-aebb-4ff0-a35c-955379165d6e))
-    (pin "2" (uuid 59311d7b-c1a0-48a8-ba48-2232a572c19b))
+    (pin "1" (uuid 93d55b2b-83cc-48c4-9144-d8494879e77c))
+    (pin "2" (uuid 33c50beb-cccd-4110-a3b2-d2954d56db93))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "D33") (unit 1)
+          (reference "D34") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 151.13 66.04 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 151.13 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c644b72)
-    (property "Reference" "SW34" (at 151.13 58.801 0)
+    (property "Reference" "SW35" (at 151.13 58.801 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 151.13 61.1124 0)
@@ -3357,21 +3361,21 @@
     (property "Datasheet" "" (at 151.13 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6e297bfa-d699-454c-9eff-af8195f34ca0))
-    (pin "2" (uuid c0145212-4fd5-4fb5-8a81-c8bd689a9097))
+    (pin "1" (uuid f1f431ac-2a71-4e2c-85be-ff10c5964872))
+    (pin "2" (uuid 0884dd92-492b-49b2-a0fa-b88159be8c0d))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "SW34") (unit 1)
+          (reference "SW35") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D") (at 156.21 69.85 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 156.21 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c644b79)
-    (property "Reference" "D34" (at 151.13 68.58 90)
+    (property "Reference" "D35" (at 151.13 68.58 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 152.4 71.12 90)
@@ -3383,21 +3387,21 @@
     (property "Datasheet" "~" (at 156.21 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 36b3afcb-dd27-4fe8-b8ef-ad6fb4bfff76))
-    (pin "2" (uuid 7527b7d5-a695-46a1-8b19-80cf93c41eea))
+    (pin "1" (uuid 262e50ec-3bdd-43cc-95c9-15e3a6ebf384))
+    (pin "2" (uuid 8e1dfdb0-b6fb-4eea-adce-7a0031e1e905))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "D34") (unit 1)
+          (reference "D35") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 151.13 91.44 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 151.13 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c644b84)
-    (property "Reference" "SW35" (at 151.13 84.201 0)
+    (property "Reference" "SW36" (at 151.13 84.201 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 151.13 86.5124 0)
@@ -3409,21 +3413,21 @@
     (property "Datasheet" "" (at 151.13 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6503f02c-a5b2-4d27-a879-a57eb6c2a210))
-    (pin "2" (uuid 801277fa-7e54-43de-8e71-411aa764c4c5))
+    (pin "1" (uuid 0d56521c-72c3-48f5-8d55-df52287911c8))
+    (pin "2" (uuid 0c2ccce3-a0b0-4675-b14c-d3c4c0ab843a))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "SW35") (unit 1)
+          (reference "SW36") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 151.13 116.84 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 151.13 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c644b8b)
-    (property "Reference" "SW36" (at 151.13 109.601 0)
+    (property "Reference" "SW37" (at 151.13 109.601 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 151.13 111.9124 0)
@@ -3435,21 +3439,21 @@
     (property "Datasheet" "" (at 151.13 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid aaa29a55-b14d-430e-9337-f28d5582e962))
-    (pin "2" (uuid 575e7b28-7469-43ed-bb9c-05aceb001213))
+    (pin "1" (uuid a384ab13-c010-48d6-8975-9d90b4049c4f))
+    (pin "2" (uuid b0af8742-786a-421c-ab82-a43775d68b78))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "SW36") (unit 1)
+          (reference "SW37") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 151.13 142.24 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 151.13 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c644b93)
-    (property "Reference" "SW37" (at 151.13 135.001 0)
+    (property "Reference" "SW38" (at 151.13 135.001 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 151.13 137.3124 0)
@@ -3461,21 +3465,21 @@
     (property "Datasheet" "" (at 151.13 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 95f70a6a-1c08-423e-847d-00e5f053b1df))
-    (pin "2" (uuid db289f7c-b326-44bf-a947-501f5aff12bd))
+    (pin "1" (uuid 7b27ded5-c652-4d84-8400-f501bb8f07d9))
+    (pin "2" (uuid 0600bcfe-5158-4739-b2d3-590bc36f0686))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "SW37") (unit 1)
+          (reference "SW38") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D") (at 156.21 95.25 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 156.21 95.25 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c644b9a)
-    (property "Reference" "D35" (at 151.13 93.98 90)
+    (property "Reference" "D36" (at 151.13 93.98 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 152.4 96.52 90)
@@ -3487,21 +3491,21 @@
     (property "Datasheet" "~" (at 156.21 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6a6a186f-ebf8-48eb-8bd6-f914398697ab))
-    (pin "2" (uuid f34e7aa0-5669-4fe0-96f2-d56fea1f5853))
+    (pin "1" (uuid 349476c1-e938-4389-9404-5f4fc447813c))
+    (pin "2" (uuid b1f52a8e-d858-49d2-bd4a-b5fc1f363d03))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "D35") (unit 1)
+          (reference "D36") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D") (at 156.21 120.65 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 156.21 120.65 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c644ba1)
-    (property "Reference" "D36" (at 151.13 119.38 90)
+    (property "Reference" "D37" (at 151.13 119.38 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 152.4 121.92 90)
@@ -3513,21 +3517,21 @@
     (property "Datasheet" "~" (at 156.21 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8821a01d-407b-470a-9102-1d1eda7f1375))
-    (pin "2" (uuid b47edb72-00fe-4de8-bff9-3341e4c66931))
+    (pin "1" (uuid 3a83f9ca-b7e0-44b2-a585-df56032f76e7))
+    (pin "2" (uuid afe39dd1-6f70-4e88-bc91-d4cdbf809580))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "D36") (unit 1)
+          (reference "D37") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D") (at 156.21 146.05 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 156.21 146.05 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c644ba8)
-    (property "Reference" "D37" (at 151.13 144.78 90)
+    (property "Reference" "D38" (at 151.13 144.78 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 152.4 147.32 90)
@@ -3539,21 +3543,21 @@
     (property "Datasheet" "~" (at 156.21 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 77dba2f2-83ab-4c0b-af27-6baa106019d3))
-    (pin "2" (uuid 6a61fe1b-69f8-443b-b0e1-9468b0c0d411))
+    (pin "1" (uuid 32c394b1-8a0b-41e7-b519-2c58f0255920))
+    (pin "2" (uuid 91485e59-3135-447f-9711-5c1dddd52467))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "D37") (unit 1)
+          (reference "D38") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 167.64 40.64 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 167.64 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c647dd0)
-    (property "Reference" "SW38" (at 167.64 33.401 0)
+    (property "Reference" "SW39" (at 167.64 33.401 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 167.64 35.7124 0)
@@ -3565,21 +3569,21 @@
     (property "Datasheet" "" (at 167.64 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f2d13add-6367-4dd8-80ac-8e4bbbcd8a98))
-    (pin "2" (uuid a219fdb0-f9db-4b4d-95a7-d7c8b26148ee))
+    (pin "1" (uuid d82773a7-a893-483b-a8f8-75e262ec4457))
+    (pin "2" (uuid 9a8e9d25-d8d1-4b60-847f-a06e2f4e2153))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "SW38") (unit 1)
+          (reference "SW39") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D") (at 172.72 44.45 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 172.72 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c647dd8)
-    (property "Reference" "D38" (at 167.64 43.18 90)
+    (property "Reference" "D39" (at 167.64 43.18 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 168.91 45.72 90)
@@ -3591,21 +3595,21 @@
     (property "Datasheet" "~" (at 172.72 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid db3c47c2-ebdf-4f85-aa2a-3d8dd66cdddc))
-    (pin "2" (uuid 6b1eb63b-049b-4fd4-baaa-dfdec9cfd690))
+    (pin "1" (uuid b48973da-2a97-495e-b912-cb0a08232701))
+    (pin "2" (uuid eb348e4e-0a1d-43df-8532-c662d4552338))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "D38") (unit 1)
+          (reference "D39") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 167.64 66.04 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 167.64 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c647ddf)
-    (property "Reference" "SW39" (at 167.64 58.801 0)
+    (property "Reference" "SW40" (at 167.64 58.801 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 167.64 61.1124 0)
@@ -3617,21 +3621,21 @@
     (property "Datasheet" "" (at 167.64 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2cacbc9f-69c5-4aeb-b488-c54b398f1797))
-    (pin "2" (uuid 0ec91113-43ad-4a39-9de2-66022f7d163b))
+    (pin "1" (uuid 992defb9-6449-4588-9edd-f859e0ea05b6))
+    (pin "2" (uuid 34b8d07d-5959-4a3e-b5aa-3650ed6aa6e9))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "SW39") (unit 1)
+          (reference "SW40") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D") (at 172.72 69.85 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 172.72 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c647de6)
-    (property "Reference" "D39" (at 167.64 68.58 90)
+    (property "Reference" "D40" (at 167.64 68.58 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 168.91 71.12 90)
@@ -3643,21 +3647,21 @@
     (property "Datasheet" "~" (at 172.72 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 330acdc1-0202-4ad2-a0f1-0204ddc2dfab))
-    (pin "2" (uuid 5ab13b6c-bb44-4c2f-896c-e31842456e20))
+    (pin "1" (uuid 955290a5-cc5b-4136-b1e1-b307b07721d6))
+    (pin "2" (uuid 883898b3-8c42-4f74-8266-ea5d76cdcb81))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "D39") (unit 1)
+          (reference "D40") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 167.64 91.44 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 167.64 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c647df1)
-    (property "Reference" "SW40" (at 167.64 84.201 0)
+    (property "Reference" "SW41" (at 167.64 84.201 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 167.64 86.5124 0)
@@ -3669,21 +3673,21 @@
     (property "Datasheet" "" (at 167.64 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b17a00d5-31b6-4587-beed-368e8301b71e))
-    (pin "2" (uuid c169de8d-3d47-4ea7-bfa0-840493b5c343))
+    (pin "1" (uuid 28959209-003b-4e7d-8512-5c8e31f81b4c))
+    (pin "2" (uuid 5b8a8edf-fb70-4c7a-92ba-fecd9d032bbb))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "SW40") (unit 1)
+          (reference "SW41") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 167.64 116.84 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 167.64 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c647df8)
-    (property "Reference" "SW41" (at 167.64 109.601 0)
+    (property "Reference" "SW42" (at 167.64 109.601 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 167.64 111.9124 0)
@@ -3695,21 +3699,21 @@
     (property "Datasheet" "" (at 167.64 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 634c2503-7367-444c-8565-cc79550acad1))
-    (pin "2" (uuid ea451a8f-fda1-4b43-8780-6ca58927536d))
+    (pin "1" (uuid 14c033f9-d978-4f19-b0c8-64783d9b8f90))
+    (pin "2" (uuid 88247186-b4c3-4e70-ad6d-c5234b87b6d6))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "SW41") (unit 1)
+          (reference "SW42") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D") (at 172.72 95.25 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 172.72 95.25 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c647e07)
-    (property "Reference" "D40" (at 167.64 93.98 90)
+    (property "Reference" "D41" (at 167.64 93.98 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 168.91 96.52 90)
@@ -3721,21 +3725,21 @@
     (property "Datasheet" "~" (at 172.72 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 73b5e060-5854-4e52-9a66-09de2acaae69))
-    (pin "2" (uuid b605b04e-dbaf-43ab-a510-fc7e7dfcd0a4))
+    (pin "1" (uuid f35a2796-5a5b-44eb-ba9c-a4005a60630e))
+    (pin "2" (uuid 5596769b-c787-4aeb-8b26-1fa2983f3648))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "D40") (unit 1)
+          (reference "D41") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D") (at 172.72 120.65 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 172.72 120.65 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c647e0e)
-    (property "Reference" "D41" (at 167.64 119.38 90)
+    (property "Reference" "D42" (at 167.64 119.38 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 168.91 121.92 90)
@@ -3747,21 +3751,21 @@
     (property "Datasheet" "~" (at 172.72 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7e170a1e-07ab-4b71-bd52-e7bc56dd89fe))
-    (pin "2" (uuid da2069b5-d72c-4f7f-92c6-230c13675800))
+    (pin "1" (uuid 622980f3-97a4-495f-8c6c-2d258816a40c))
+    (pin "2" (uuid 143ba115-605e-4830-b66b-373f3d17e087))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "D41") (unit 1)
+          (reference "D42") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 184.15 40.64 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 184.15 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c64bd2c)
-    (property "Reference" "SW42" (at 184.15 33.401 0)
+    (property "Reference" "SW43" (at 184.15 33.401 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 184.15 35.7124 0)
@@ -3773,21 +3777,21 @@
     (property "Datasheet" "" (at 184.15 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f984c0ec-ae97-4d21-8d0c-b2caf7cffb78))
-    (pin "2" (uuid 8ab7f50d-532c-4b41-91a8-8282d9340505))
+    (pin "1" (uuid a2381f82-4ee1-424d-a0cc-11d2fec4fddb))
+    (pin "2" (uuid b5946f27-164a-4f04-b0eb-15587b91ceaa))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "SW42") (unit 1)
+          (reference "SW43") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D") (at 189.23 44.45 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 189.23 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c64bd34)
-    (property "Reference" "D42" (at 184.15 43.18 90)
+    (property "Reference" "D43" (at 184.15 43.18 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 185.42 45.72 90)
@@ -3799,21 +3803,21 @@
     (property "Datasheet" "~" (at 189.23 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9c9bbea7-a8e8-4564-9f40-e12050f42cc3))
-    (pin "2" (uuid 64e96242-80df-45ba-8539-902cd4456160))
+    (pin "1" (uuid 7da05cf6-cff5-4956-bbb1-b35dae66f8c2))
+    (pin "2" (uuid 4171d89a-7856-45db-aa0d-5194360f9d6d))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "D42") (unit 1)
+          (reference "D43") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 184.15 66.04 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 184.15 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c64bd3b)
-    (property "Reference" "SW43" (at 184.15 58.801 0)
+    (property "Reference" "SW44" (at 184.15 58.801 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 184.15 61.1124 0)
@@ -3825,21 +3829,21 @@
     (property "Datasheet" "" (at 184.15 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b1c7e7b1-987e-4890-a3ae-82b59929c81c))
-    (pin "2" (uuid dd764836-5645-4f95-a164-b290e9aa3c4e))
+    (pin "1" (uuid b5711d7e-e162-49c5-ad80-dd0b81722b4c))
+    (pin "2" (uuid 6c0571ce-a533-4f6e-861d-cb31b64d7317))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "SW43") (unit 1)
+          (reference "SW44") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D") (at 189.23 69.85 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 189.23 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c64bd42)
-    (property "Reference" "D43" (at 184.15 68.58 90)
+    (property "Reference" "D44" (at 184.15 68.58 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 185.42 71.12 90)
@@ -3851,21 +3855,21 @@
     (property "Datasheet" "~" (at 189.23 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 270b80a2-21f7-4b9f-9db0-0e0859ffaab4))
-    (pin "2" (uuid 2196b7b1-84b0-4d1d-8c2a-3ed3aaf18171))
+    (pin "1" (uuid 294033bf-150a-4c3a-9a27-6db79181605b))
+    (pin "2" (uuid fca6009d-b67b-4fd5-91f7-1fe3d06ed4ac))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "D43") (unit 1)
+          (reference "D44") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 184.15 91.44 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 184.15 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c64bd4d)
-    (property "Reference" "SW44" (at 184.15 84.201 0)
+    (property "Reference" "SW45" (at 184.15 84.201 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 184.15 86.5124 0)
@@ -3877,21 +3881,21 @@
     (property "Datasheet" "" (at 184.15 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 08a81be1-a146-47c4-b43b-3358642a0ee8))
-    (pin "2" (uuid e8903ea9-1548-40d1-bf9c-012777c787ba))
+    (pin "1" (uuid 3710497f-3d0a-4658-85b4-882f98b7abf7))
+    (pin "2" (uuid 10c80f4f-13f1-44c7-b53c-ecd03fea7b11))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "SW44") (unit 1)
+          (reference "SW45") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 184.15 116.84 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 184.15 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c64bd54)
-    (property "Reference" "SW45" (at 184.15 109.601 0)
+    (property "Reference" "SW46" (at 184.15 109.601 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 184.15 111.9124 0)
@@ -3903,21 +3907,21 @@
     (property "Datasheet" "" (at 184.15 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 591af9b8-4ea6-47c0-8c8c-66661fbc8a04))
-    (pin "2" (uuid 373787a9-807b-47e0-a045-56908b7f03ec))
+    (pin "1" (uuid df933204-d314-45df-bd75-57dcfbcb9cc0))
+    (pin "2" (uuid 8bbb041e-89e1-46f9-9cab-e6d2811d0911))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "SW45") (unit 1)
+          (reference "SW46") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 184.15 142.24 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 184.15 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c64bd5c)
-    (property "Reference" "SW46" (at 184.15 135.001 0)
+    (property "Reference" "SW47" (at 184.15 135.001 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 184.15 137.3124 0)
@@ -3929,21 +3933,21 @@
     (property "Datasheet" "" (at 184.15 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2d9fcacd-00ca-4f5c-9b20-9e8b1f379b28))
-    (pin "2" (uuid 2f5291c5-5978-415f-90f6-da4d9653f745))
+    (pin "1" (uuid 66010a77-78df-4b62-a716-e6b469a24739))
+    (pin "2" (uuid ee786a99-7f1b-4dbd-aa0b-76fe918c3ae7))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "SW46") (unit 1)
+          (reference "SW47") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D") (at 189.23 95.25 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 189.23 95.25 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c64bd63)
-    (property "Reference" "D44" (at 184.15 93.98 90)
+    (property "Reference" "D45" (at 184.15 93.98 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 185.42 96.52 90)
@@ -3955,21 +3959,21 @@
     (property "Datasheet" "~" (at 189.23 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2883b1d8-025c-47d1-8465-2faac381ae4e))
-    (pin "2" (uuid 187c4699-963b-4ad1-954f-d38f6efb3db6))
+    (pin "1" (uuid 525cc128-d9d4-468c-bd45-e5192d4cf2a2))
+    (pin "2" (uuid f6df1136-d5c9-4906-8d99-6562946942c9))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "D44") (unit 1)
+          (reference "D45") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D") (at 189.23 120.65 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 189.23 120.65 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c64bd6a)
-    (property "Reference" "D45" (at 184.15 119.38 90)
+    (property "Reference" "D46" (at 184.15 119.38 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 185.42 121.92 90)
@@ -3981,21 +3985,21 @@
     (property "Datasheet" "~" (at 189.23 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2ce3f3b0-747b-40ef-b87c-65ba08cf0bb7))
-    (pin "2" (uuid c3e36aa7-bbb1-42c8-9d94-23f4f35c46d4))
+    (pin "1" (uuid 0181a055-2101-4d44-97bc-ad392def4816))
+    (pin "2" (uuid a2287292-a453-49a0-886f-b16e2ce19ea0))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "D45") (unit 1)
+          (reference "D46") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D") (at 189.23 146.05 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 189.23 146.05 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c64bd71)
-    (property "Reference" "D46" (at 184.15 144.78 90)
+    (property "Reference" "D47" (at 184.15 144.78 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 185.42 147.32 90)
@@ -4007,21 +4011,21 @@
     (property "Datasheet" "~" (at 189.23 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c5b900c7-4a57-4a85-b9f3-454236cfb055))
-    (pin "2" (uuid 590093bd-eba9-4129-92f0-13ce3b7e6fc5))
+    (pin "1" (uuid 737c1762-de7b-4ec0-9881-c51e3234720c))
+    (pin "2" (uuid 7ddd9bbd-8489-421f-ab3f-0cf3d808ab10))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "D46") (unit 1)
+          (reference "D47") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 200.66 40.64 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 200.66 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c650a9e)
-    (property "Reference" "SW47" (at 200.66 33.401 0)
+    (property "Reference" "SW48" (at 200.66 33.401 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 200.66 35.7124 0)
@@ -4033,21 +4037,21 @@
     (property "Datasheet" "" (at 200.66 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b3d8327f-34f7-4c53-a5d5-47bf023e25a3))
-    (pin "2" (uuid 09aaa7aa-3af5-48b4-8af5-ce1fd88b7390))
+    (pin "1" (uuid 9bbdc88c-0053-4e10-93ae-83e626b7145c))
+    (pin "2" (uuid 68b7e9b0-d603-467e-b71d-a6eb2012b017))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "SW47") (unit 1)
+          (reference "SW48") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D") (at 205.74 44.45 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 205.74 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c650aa6)
-    (property "Reference" "D47" (at 200.66 43.18 90)
+    (property "Reference" "D48" (at 200.66 43.18 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 201.93 45.72 90)
@@ -4059,21 +4063,21 @@
     (property "Datasheet" "~" (at 205.74 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 93538c24-fd9a-4717-9068-a9cce673790d))
-    (pin "2" (uuid 8c703f69-13c8-414c-94aa-2c521e5fd8d1))
+    (pin "1" (uuid 33c46573-4962-4896-b779-55a2d056b33d))
+    (pin "2" (uuid 043e2261-a055-4362-9cbd-6a041bf4247f))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "D47") (unit 1)
+          (reference "D48") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 200.66 66.04 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 200.66 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c650aad)
-    (property "Reference" "SW48" (at 200.66 58.801 0)
+    (property "Reference" "SW49" (at 200.66 58.801 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 200.66 61.1124 0)
@@ -4085,21 +4089,21 @@
     (property "Datasheet" "" (at 200.66 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d64d859c-5b8e-4d28-a9b7-262d92ba0b7d))
-    (pin "2" (uuid 4163e22d-e367-41f6-9444-17e930afd1a9))
+    (pin "1" (uuid 3205260a-98e0-4c79-89e6-cc21c5af7011))
+    (pin "2" (uuid 2467b9fa-279e-4487-9b06-7f96faa34b6c))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "SW48") (unit 1)
+          (reference "SW49") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D") (at 205.74 69.85 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 205.74 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c650ab4)
-    (property "Reference" "D48" (at 200.66 68.58 90)
+    (property "Reference" "D49" (at 200.66 68.58 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 201.93 71.12 90)
@@ -4111,21 +4115,21 @@
     (property "Datasheet" "~" (at 205.74 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 101151ae-988c-48f6-ae3e-27de5b237de6))
-    (pin "2" (uuid 7c0a2390-4d47-4755-8e7f-f7f502cb080a))
+    (pin "1" (uuid fb7fb30a-c9e3-4549-828d-03ce1e7e460c))
+    (pin "2" (uuid 4aa49b93-59fa-49a7-85be-3a55ac350dde))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "D48") (unit 1)
+          (reference "D49") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 200.66 91.44 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 200.66 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c650abf)
-    (property "Reference" "SW49" (at 200.66 84.201 0)
+    (property "Reference" "SW50" (at 200.66 84.201 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 200.66 86.5124 0)
@@ -4137,21 +4141,21 @@
     (property "Datasheet" "" (at 200.66 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid feb14acd-dd9d-404a-ac11-2c5682c5ccf2))
-    (pin "2" (uuid 67af540b-2141-4d48-b7bf-2545e6c365cf))
+    (pin "1" (uuid 074fb2cb-cd45-4293-a04c-792105f950cd))
+    (pin "2" (uuid 27c38994-9f25-4034-8606-5b42c84a36e0))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "SW49") (unit 1)
+          (reference "SW50") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 200.66 116.84 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 200.66 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c650ac6)
-    (property "Reference" "SW50" (at 200.66 109.601 0)
+    (property "Reference" "SW51" (at 200.66 109.601 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 200.66 111.9124 0)
@@ -4163,21 +4167,21 @@
     (property "Datasheet" "" (at 200.66 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4c76e838-7235-454b-8710-83b09019a578))
-    (pin "2" (uuid 6bb9ae96-4b02-477c-a1a1-eef219eca025))
+    (pin "1" (uuid 8da6816b-3e8c-40bb-9fb1-b457734523d1))
+    (pin "2" (uuid 03c8cb50-e32d-4c5a-bdb2-5695de50ef13))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "SW50") (unit 1)
+          (reference "SW51") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D") (at 205.74 95.25 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 205.74 95.25 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c650ad5)
-    (property "Reference" "D49" (at 200.66 93.98 90)
+    (property "Reference" "D50" (at 200.66 93.98 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 201.93 96.52 90)
@@ -4189,21 +4193,21 @@
     (property "Datasheet" "~" (at 205.74 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 89021794-51f0-4b3f-993c-f264cc5c3b9b))
-    (pin "2" (uuid e1acd721-9add-449c-953b-c017d5adb3dc))
+    (pin "1" (uuid e7d131bd-53fb-44af-9fc0-2ca2f6b0e3bb))
+    (pin "2" (uuid 26a533f6-efbc-402e-9983-a8fc9fbf9fb1))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "D49") (unit 1)
+          (reference "D50") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D") (at 205.74 120.65 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 205.74 120.65 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c650adc)
-    (property "Reference" "D50" (at 200.66 119.38 90)
+    (property "Reference" "D51" (at 200.66 119.38 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 201.93 121.92 90)
@@ -4215,21 +4219,21 @@
     (property "Datasheet" "~" (at 205.74 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3784fb3f-ba0e-48ab-839e-e56a2984ce80))
-    (pin "2" (uuid edd69268-0b63-4578-993b-2bdebe1f8773))
+    (pin "1" (uuid 8b47b2f2-f42d-496b-9360-48f7571ea429))
+    (pin "2" (uuid 5c977b06-f11e-4efb-ac3e-64fb29202b93))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "D50") (unit 1)
+          (reference "D51") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 217.17 40.64 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 217.17 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c6567c5)
-    (property "Reference" "SW51" (at 217.17 33.401 0)
+    (property "Reference" "SW52" (at 217.17 33.401 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 217.17 35.7124 0)
@@ -4241,21 +4245,21 @@
     (property "Datasheet" "" (at 217.17 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 356626d0-2b7e-48ad-a809-3a6dfa5f4d05))
-    (pin "2" (uuid 79014138-c326-4246-8fda-9714d51b8c85))
+    (pin "1" (uuid 9e45697a-86f2-4460-ac27-af4504f75440))
+    (pin "2" (uuid 6f50b73e-e228-4a20-be76-9a4aeb558508))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "SW51") (unit 1)
+          (reference "SW52") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D") (at 222.25 44.45 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 222.25 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c6567cd)
-    (property "Reference" "D51" (at 217.17 43.18 90)
+    (property "Reference" "D52" (at 217.17 43.18 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 218.44 45.72 90)
@@ -4267,21 +4271,21 @@
     (property "Datasheet" "~" (at 222.25 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ced8f872-2e7c-4a0b-b89d-e3dbcade990a))
-    (pin "2" (uuid 4889187a-134c-4c1b-8371-8ce1513cea53))
+    (pin "1" (uuid 6c3b58ed-b9c7-4910-b28f-a5a3b6af8667))
+    (pin "2" (uuid 6fb9925e-786f-40db-8b05-080392df5e4d))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "D51") (unit 1)
+          (reference "D52") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 217.17 66.04 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 217.17 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c6567d4)
-    (property "Reference" "SW52" (at 217.17 58.801 0)
+    (property "Reference" "SW53" (at 217.17 58.801 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 217.17 61.1124 0)
@@ -4293,21 +4297,21 @@
     (property "Datasheet" "" (at 217.17 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 26def37c-9b6b-4c72-bead-8d5238ef1aad))
-    (pin "2" (uuid 12e6977f-ce0f-4b2b-8b17-35240f7f0fa8))
+    (pin "1" (uuid ad7a1ae5-6194-4ffe-b035-6aa5fdd283f5))
+    (pin "2" (uuid e32dc78e-3bca-410b-b15c-a600a0ba5ac2))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "SW52") (unit 1)
+          (reference "SW53") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D") (at 222.25 69.85 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 222.25 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c6567db)
-    (property "Reference" "D52" (at 217.17 68.58 90)
+    (property "Reference" "D53" (at 217.17 68.58 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 218.44 71.12 90)
@@ -4319,21 +4323,21 @@
     (property "Datasheet" "~" (at 222.25 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 824eef48-b248-45db-aabd-8236defd6fcb))
-    (pin "2" (uuid 6ef11bd4-a2bc-4115-a3f1-43949f57bb84))
+    (pin "1" (uuid f9ec62d2-b808-4939-9809-ffb1bea50057))
+    (pin "2" (uuid a2888570-5071-42d4-b412-948689f7dfc0))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "D52") (unit 1)
+          (reference "D53") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 217.17 91.44 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 217.17 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c6567e6)
-    (property "Reference" "SW53" (at 217.17 84.201 0)
+    (property "Reference" "SW54" (at 217.17 84.201 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 217.17 86.5124 0)
@@ -4345,21 +4349,21 @@
     (property "Datasheet" "" (at 217.17 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 866f54c1-5ff9-48de-ab7d-98084c0163a9))
-    (pin "2" (uuid 3600276d-a378-40f5-bda0-ff82b7775e87))
+    (pin "1" (uuid 063dd44b-920e-48e1-9fcd-f7319e2f6e23))
+    (pin "2" (uuid b50b15c5-6517-430a-95ed-804a79c2faa0))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "SW53") (unit 1)
+          (reference "SW54") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 217.17 116.84 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 217.17 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c6567ed)
-    (property "Reference" "SW54" (at 217.17 109.601 0)
+    (property "Reference" "SW55" (at 217.17 109.601 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 217.17 111.9124 0)
@@ -4371,21 +4375,21 @@
     (property "Datasheet" "" (at 217.17 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 41c90c8f-66b4-421d-9b5b-499db6559185))
-    (pin "2" (uuid 3f83e08a-6de1-4ead-8876-a68c316f1d4d))
+    (pin "1" (uuid 0d5f9f99-92f2-4e6b-befa-5339752bedf3))
+    (pin "2" (uuid 426426ff-3c08-4243-b816-0655ec596975))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "SW54") (unit 1)
+          (reference "SW55") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D") (at 222.25 95.25 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 222.25 95.25 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c6567fc)
-    (property "Reference" "D53" (at 217.17 93.98 90)
+    (property "Reference" "D54" (at 217.17 93.98 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 218.44 96.52 90)
@@ -4397,21 +4401,21 @@
     (property "Datasheet" "~" (at 222.25 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cecf47c3-4728-4974-a6b2-d98f4887b99c))
-    (pin "2" (uuid 79255161-6327-4ea1-8090-dd7f5f5e707a))
+    (pin "1" (uuid 9d77bc8d-1ba0-4944-b06f-90f59e326d14))
+    (pin "2" (uuid ad98679e-6f98-4604-a569-006b27232eb8))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "D53") (unit 1)
+          (reference "D54") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D") (at 222.25 120.65 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 222.25 120.65 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c656803)
-    (property "Reference" "D54" (at 217.17 119.38 90)
+    (property "Reference" "D55" (at 217.17 119.38 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 218.44 121.92 90)
@@ -4423,21 +4427,21 @@
     (property "Datasheet" "~" (at 222.25 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0c9cb62d-377b-4b8a-be0d-66172e4c01be))
-    (pin "2" (uuid 266e61a7-a20b-4b75-a285-816cc00559f8))
+    (pin "1" (uuid 58065c66-f699-4e89-bfad-1b7191bc3fd6))
+    (pin "2" (uuid b53a06bb-7676-4447-a289-0187d3961381))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "D54") (unit 1)
+          (reference "D55") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 233.68 40.64 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 233.68 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c65d604)
-    (property "Reference" "SW55" (at 233.68 33.401 0)
+    (property "Reference" "SW56" (at 233.68 33.401 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 233.68 35.7124 0)
@@ -4449,21 +4453,21 @@
     (property "Datasheet" "" (at 233.68 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 62ef5a8a-ddff-4628-9cd4-0256c4b87018))
-    (pin "2" (uuid 4228fa79-74c4-4f20-b4f9-3567d87a8a0e))
+    (pin "1" (uuid 6dd6c327-5dd7-48bf-842f-5714a5f8c5c7))
+    (pin "2" (uuid 26d62b3a-359a-4475-ab50-3b9705c02e83))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "SW55") (unit 1)
+          (reference "SW56") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D") (at 238.76 44.45 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 238.76 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c65d60c)
-    (property "Reference" "D55" (at 233.68 43.18 90)
+    (property "Reference" "D56" (at 233.68 43.18 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 234.95 45.72 90)
@@ -4475,21 +4479,21 @@
     (property "Datasheet" "~" (at 238.76 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f4f28fd9-40eb-453c-83b8-fce1941d0dfd))
-    (pin "2" (uuid 56f1c4ea-5fe2-4ac3-a07e-24211a963d62))
+    (pin "1" (uuid f713f8bf-ae47-43ec-a215-7a0ba8639351))
+    (pin "2" (uuid dcfded96-65e1-4b6d-acd1-ac4ff347d5b4))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "D55") (unit 1)
+          (reference "D56") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 233.68 66.04 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 233.68 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c65d613)
-    (property "Reference" "SW56" (at 233.68 58.801 0)
+    (property "Reference" "SW57" (at 233.68 58.801 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 233.68 61.1124 0)
@@ -4501,21 +4505,21 @@
     (property "Datasheet" "" (at 233.68 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2d2e38c2-ce3a-4451-aefc-d9555d25fb7e))
-    (pin "2" (uuid 721cc097-6d65-4016-98d4-8d6d4916485d))
+    (pin "1" (uuid d15cc286-a9fc-471e-9ac2-b8a5e0d279d9))
+    (pin "2" (uuid a205f6be-fe01-4c56-9818-ab32d824f286))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "SW56") (unit 1)
+          (reference "SW57") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D") (at 238.76 69.85 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 238.76 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c65d61a)
-    (property "Reference" "D56" (at 233.68 68.58 90)
+    (property "Reference" "D57" (at 233.68 68.58 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 234.95 71.12 90)
@@ -4527,21 +4531,21 @@
     (property "Datasheet" "~" (at 238.76 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 513e65cb-7936-432b-9573-86893ed3a491))
-    (pin "2" (uuid a885ac08-1eb6-4042-b482-30315d0d03c6))
+    (pin "1" (uuid e4b160f1-0949-4207-a0cd-f39f888226b7))
+    (pin "2" (uuid 4e0efaf7-2311-4d4e-a5b6-858c22005146))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "D56") (unit 1)
+          (reference "D57") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 233.68 91.44 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 233.68 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c65d625)
-    (property "Reference" "SW57" (at 233.68 84.201 0)
+    (property "Reference" "SW58" (at 233.68 84.201 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 233.68 86.5124 0)
@@ -4553,21 +4557,21 @@
     (property "Datasheet" "" (at 233.68 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8f5540a3-0463-45e5-a032-d4bde71e62c8))
-    (pin "2" (uuid 1cf99333-74fe-48fa-85ed-c699109772c6))
+    (pin "1" (uuid e0f493ef-dc86-4913-a11a-ad1596489f08))
+    (pin "2" (uuid 26d69b76-0e8f-4a58-9a1f-2b6c1c916d6a))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "SW57") (unit 1)
+          (reference "SW58") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 233.68 142.24 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 233.68 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c65d634)
-    (property "Reference" "SW58" (at 233.68 135.001 0)
+    (property "Reference" "SW59" (at 233.68 135.001 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 233.68 137.3124 0)
@@ -4579,21 +4583,21 @@
     (property "Datasheet" "" (at 233.68 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 69752777-3a2c-4566-a0d3-86f04e073641))
-    (pin "2" (uuid b6009038-5b87-4375-b38c-967b0bd1877f))
+    (pin "1" (uuid 3b8bda0b-d368-4a9d-9ec3-0ac329d44864))
+    (pin "2" (uuid 39487b7e-c242-45c9-80ff-c48cd21ef2c7))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "SW58") (unit 1)
+          (reference "SW59") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D") (at 238.76 95.25 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 238.76 95.25 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c65d63b)
-    (property "Reference" "D57" (at 233.68 93.98 90)
+    (property "Reference" "D58" (at 233.68 93.98 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 234.95 96.52 90)
@@ -4605,21 +4609,21 @@
     (property "Datasheet" "~" (at 238.76 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b7c2c7ad-5335-4887-be82-98e6d4d649c6))
-    (pin "2" (uuid 87972591-9046-48be-8c17-5f198e78e76d))
+    (pin "1" (uuid 6ae6bad9-3506-4d4d-84ea-8eeb079e19fa))
+    (pin "2" (uuid aad3dd94-cc3c-441a-bde3-90682b22c13c))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "D57") (unit 1)
+          (reference "D58") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D") (at 238.76 146.05 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 238.76 146.05 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c65d649)
-    (property "Reference" "D58" (at 233.68 144.78 90)
+    (property "Reference" "D59" (at 233.68 144.78 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 234.95 147.32 90)
@@ -4631,21 +4635,21 @@
     (property "Datasheet" "~" (at 238.76 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c690ceaf-80d6-424c-955c-8269dffc4136))
-    (pin "2" (uuid ceeaa8fe-09ee-4587-a723-3a94e888cd63))
+    (pin "1" (uuid 338f7af6-67f7-4dea-8c7a-c6642bd2bac3))
+    (pin "2" (uuid 0fc7712e-b18a-423a-b208-9c0894f5aa9b))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "D58") (unit 1)
+          (reference "D59") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 250.19 40.64 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 250.19 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c6656e6)
-    (property "Reference" "SW59" (at 250.19 33.401 0)
+    (property "Reference" "SW60" (at 250.19 33.401 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 250.19 35.7124 0)
@@ -4657,21 +4661,21 @@
     (property "Datasheet" "" (at 250.19 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5db8bb45-c8d8-4463-9391-ff4b7f6b0385))
-    (pin "2" (uuid c59cbfee-f1a1-48c7-91f4-e91ae147d70f))
+    (pin "1" (uuid 8913a544-29b8-436a-9d1c-12853b6b46f4))
+    (pin "2" (uuid ca8030d1-d18c-491d-89c9-3074392f78b7))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "SW59") (unit 1)
+          (reference "SW60") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D") (at 255.27 44.45 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 255.27 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c6656ee)
-    (property "Reference" "D59" (at 250.19 43.18 90)
+    (property "Reference" "D60" (at 250.19 43.18 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 251.46 45.72 90)
@@ -4683,21 +4687,21 @@
     (property "Datasheet" "~" (at 255.27 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8d35a1ce-5312-49a0-ad0f-396382d854e8))
-    (pin "2" (uuid db39268a-9fd0-4f48-8cb2-af2885bf34f5))
+    (pin "1" (uuid ea659479-0f00-4416-bb22-d793c97f63b9))
+    (pin "2" (uuid 7179c3e5-32d0-4e9a-b231-c5d2a422bfa7))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "D59") (unit 1)
+          (reference "D60") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 250.19 66.04 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 250.19 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c6656f5)
-    (property "Reference" "SW60" (at 250.19 58.801 0)
+    (property "Reference" "SW61" (at 250.19 58.801 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 250.19 61.1124 0)
@@ -4709,21 +4713,21 @@
     (property "Datasheet" "" (at 250.19 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 910d9aa3-730b-4821-8cd2-bcfda1ba7de6))
-    (pin "2" (uuid 8dc0bc9c-7295-40c8-be09-6dbaaf70b178))
+    (pin "1" (uuid 3fe1015f-8a19-431b-8e50-a0b225c8fe60))
+    (pin "2" (uuid ef2e58c5-27f6-4bf6-8889-50f856c14ef8))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "SW60") (unit 1)
+          (reference "SW61") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D") (at 255.27 69.85 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 255.27 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c6656fc)
-    (property "Reference" "D60" (at 250.19 68.58 90)
+    (property "Reference" "D61" (at 250.19 68.58 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 251.46 71.12 90)
@@ -4735,21 +4739,21 @@
     (property "Datasheet" "~" (at 255.27 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7d16ca25-7422-4703-898f-0a93c862add8))
-    (pin "2" (uuid 67afbc34-d0bc-4303-9adc-1d6d4321e40d))
+    (pin "1" (uuid 826e6832-22ee-46f6-a67b-185dc8a08d86))
+    (pin "2" (uuid 34b654d7-bbb6-46fe-9aaf-97ba7a388b2d))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "D60") (unit 1)
+          (reference "D61") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 250.19 116.84 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 250.19 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c66570e)
-    (property "Reference" "SW61" (at 250.19 109.601 0)
+    (property "Reference" "SW62" (at 250.19 109.601 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 250.19 111.9124 0)
@@ -4761,21 +4765,21 @@
     (property "Datasheet" "" (at 250.19 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8f550e98-f7ae-4f1a-a1d1-7e8a41b0de62))
-    (pin "2" (uuid e5ac341d-67d0-406b-85c2-b0f1350f1331))
+    (pin "1" (uuid f5da9097-fd75-44c9-8189-73499710c238))
+    (pin "2" (uuid 5d81e19a-02cb-4833-9feb-da9d0696c152))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "SW61") (unit 1)
+          (reference "SW62") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 250.19 142.24 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 250.19 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c665716)
-    (property "Reference" "SW62" (at 250.19 135.001 0)
+    (property "Reference" "SW63" (at 250.19 135.001 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 250.19 137.3124 0)
@@ -4787,21 +4791,21 @@
     (property "Datasheet" "" (at 250.19 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bda0c426-6316-40f6-84cc-ef7106f7757e))
-    (pin "2" (uuid 5c3794c2-4e44-497e-8b5a-1f9ec513f3a5))
+    (pin "1" (uuid 7da8232c-b514-40a4-b48f-39bd0f8c5982))
+    (pin "2" (uuid 27a52725-accd-4136-beff-b63f29066450))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "SW62") (unit 1)
+          (reference "SW63") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D") (at 255.27 120.65 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 255.27 120.65 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c665724)
-    (property "Reference" "D61" (at 250.19 119.38 90)
+    (property "Reference" "D62" (at 250.19 119.38 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 251.46 121.92 90)
@@ -4813,21 +4817,21 @@
     (property "Datasheet" "~" (at 255.27 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0b4fa5e5-9585-436f-b041-1c0c3afc547a))
-    (pin "2" (uuid 8a42c5c3-b90f-4855-ac2b-1dc0b23a0448))
+    (pin "1" (uuid f43ff820-2215-4322-860a-99e1b64b0495))
+    (pin "2" (uuid 8678a757-1b3d-4bac-9caa-cc3c19802ab1))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "D61") (unit 1)
+          (reference "D62") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D") (at 255.27 146.05 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 255.27 146.05 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c66572b)
-    (property "Reference" "D62" (at 250.19 144.78 90)
+    (property "Reference" "D63" (at 250.19 144.78 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 251.46 147.32 90)
@@ -4839,21 +4843,21 @@
     (property "Datasheet" "~" (at 255.27 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fe3b6319-f2b0-44e5-b667-94fd601df5fa))
-    (pin "2" (uuid 73d93336-0939-48a9-bdc9-b6943ba6cc5a))
+    (pin "1" (uuid 67461c64-a025-4191-88c7-73d44deee0f1))
+    (pin "2" (uuid c152476f-48bf-4d1a-801b-5a845055fbcc))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "D62") (unit 1)
+          (reference "D63") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 266.7 40.64 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 266.7 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c66ec6e)
-    (property "Reference" "SW63" (at 266.7 33.401 0)
+    (property "Reference" "SW64" (at 266.7 33.401 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 266.7 35.7124 0)
@@ -4865,21 +4869,21 @@
     (property "Datasheet" "" (at 266.7 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b4f4dcea-7d28-44d8-8d67-27261e4162b1))
-    (pin "2" (uuid aa7b88e3-cea5-441e-a7a3-3bf6010f3f93))
+    (pin "1" (uuid 88a58277-b81f-4648-8b03-d325451ec026))
+    (pin "2" (uuid 7f974a1a-9b0b-469a-9750-6496254037f1))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "SW63") (unit 1)
+          (reference "SW64") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D") (at 271.78 44.45 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 271.78 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c66ec76)
-    (property "Reference" "D63" (at 266.7 43.18 90)
+    (property "Reference" "D64" (at 266.7 43.18 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 267.97 45.72 90)
@@ -4891,21 +4895,21 @@
     (property "Datasheet" "~" (at 271.78 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9f67f005-f2d4-46b9-a2f2-fec08ffe3eff))
-    (pin "2" (uuid fa76f277-eb7d-45ae-9a51-b427a076e5dc))
+    (pin "1" (uuid 001fa2ef-26ae-4f37-a925-5277c205f091))
+    (pin "2" (uuid 606c61c8-22b4-40de-8264-60ff78361d1f))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "D63") (unit 1)
+          (reference "D64") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 266.7 66.04 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 266.7 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c66ec7d)
-    (property "Reference" "SW64" (at 266.7 58.801 0)
+    (property "Reference" "SW65" (at 266.7 58.801 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 266.7 61.1124 0)
@@ -4917,21 +4921,21 @@
     (property "Datasheet" "" (at 266.7 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b060e09f-d747-4430-a690-56f4ed992c9f))
-    (pin "2" (uuid 8fc3deb7-9dd6-4eca-b370-e5abf8a14d59))
+    (pin "1" (uuid a11ecf2d-134e-4b9d-b4b4-a5ec42703f67))
+    (pin "2" (uuid d4ced6f4-6083-4969-8e42-08ee7e8538d2))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "SW64") (unit 1)
+          (reference "SW65") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D") (at 271.78 69.85 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 271.78 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c66ec84)
-    (property "Reference" "D64" (at 266.7 68.58 90)
+    (property "Reference" "D65" (at 266.7 68.58 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 267.97 71.12 90)
@@ -4943,21 +4947,21 @@
     (property "Datasheet" "~" (at 271.78 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2bca04fd-74d2-43b8-a53c-6006a4341ba4))
-    (pin "2" (uuid 835a8554-942d-4f9a-b577-ebd0d56b2ba0))
+    (pin "1" (uuid 182b60a9-f4d1-48ad-a8b0-f6ecd3956342))
+    (pin "2" (uuid c178526b-9cd3-4f79-9d78-1f636d71bf87))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "D64") (unit 1)
+          (reference "D65") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 266.7 91.44 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 266.7 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c66ec8f)
-    (property "Reference" "SW65" (at 266.7 84.201 0)
+    (property "Reference" "SW66" (at 266.7 84.201 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 266.7 86.5124 0)
@@ -4969,21 +4973,21 @@
     (property "Datasheet" "" (at 266.7 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 79686112-7dc2-4ca1-b031-afce4ae9cd00))
-    (pin "2" (uuid 9c735b0e-e31c-4237-a20d-4e9088241e31))
+    (pin "1" (uuid 3e5983d3-19c9-49f6-afeb-9ab73fdeeefb))
+    (pin "2" (uuid a108dd87-46ab-489e-a26d-009e551e6929))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "SW65") (unit 1)
+          (reference "SW66") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 266.7 116.84 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 266.7 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c66ec96)
-    (property "Reference" "SW66" (at 266.7 109.601 0)
+    (property "Reference" "SW67" (at 266.7 109.601 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 266.7 111.9124 0)
@@ -4995,21 +4999,21 @@
     (property "Datasheet" "" (at 266.7 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 003513d3-7453-4046-a86a-07a373f03a8c))
-    (pin "2" (uuid 3bd597d8-68b7-4eb0-831f-684bff2cfaf4))
+    (pin "1" (uuid 1ac8bcc9-1dcc-48c9-886d-70b8a69fcb76))
+    (pin "2" (uuid 5501f6e5-ca40-4209-b5c9-05d137268b65))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "SW66") (unit 1)
+          (reference "SW67") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 266.7 142.24 0) (unit 1)
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 266.7 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c66ec9e)
-    (property "Reference" "SW67" (at 266.7 135.001 0)
+    (property "Reference" "SW68" (at 266.7 135.001 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 266.7 137.3124 0)
@@ -5021,21 +5025,21 @@
     (property "Datasheet" "" (at 266.7 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b069b56f-0617-45e2-8f42-ba009792eedf))
-    (pin "2" (uuid fd0f19bb-3c80-4b73-ae69-1b370012c8c8))
+    (pin "1" (uuid 44bf8840-72ff-4645-917c-e59d61ca0296))
+    (pin "2" (uuid 7f470026-bdb3-490c-9095-f64407fe9981))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "SW67") (unit 1)
+          (reference "SW68") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D") (at 271.78 95.25 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 271.78 95.25 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c66eca5)
-    (property "Reference" "D65" (at 266.7 93.98 90)
+    (property "Reference" "D66" (at 266.7 93.98 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 267.97 96.52 90)
@@ -5047,21 +5051,21 @@
     (property "Datasheet" "~" (at 271.78 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 25534f08-0927-40a1-b1ef-24539bbf3ac2))
-    (pin "2" (uuid f2e7c2c4-42c9-4d8b-b093-cd314e82ba99))
+    (pin "1" (uuid 5db74245-4992-454b-9bda-29350b39e4fa))
+    (pin "2" (uuid be028761-955d-4eb6-ac04-62513b75a0e7))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "D65") (unit 1)
+          (reference "D66") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D") (at 271.78 120.65 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 271.78 120.65 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c66ecac)
-    (property "Reference" "D66" (at 266.7 119.38 90)
+    (property "Reference" "D67" (at 266.7 119.38 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 267.97 121.92 90)
@@ -5073,21 +5077,21 @@
     (property "Datasheet" "~" (at 271.78 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9bc22bda-5dfe-485c-bed6-38916270b248))
-    (pin "2" (uuid f566713c-6ab0-4f30-a381-c03c0788c818))
+    (pin "1" (uuid c19aa65a-6560-4b61-81da-eefb78ea11dc))
+    (pin "2" (uuid c4345664-5d8c-4417-9c53-9b63d50ca035))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "D66") (unit 1)
+          (reference "D67") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D") (at 271.78 146.05 90) (unit 1)
+  (symbol (lib_id "arisu-rescue:D-Device") (at 271.78 146.05 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005c66ecb3)
-    (property "Reference" "D67" (at 266.7 144.78 90)
+    (property "Reference" "D68" (at 266.7 144.78 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (at 267.97 147.32 90)
@@ -5099,12 +5103,64 @@
     (property "Datasheet" "~" (at 271.78 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1ea4fb6c-6c9d-46b5-a08a-7b8eb39dd77b))
-    (pin "2" (uuid ea42289e-5637-44c0-b1b7-1e69cacafdde))
+    (pin "1" (uuid 4a9483b8-51a7-44d3-b3e5-9efd0ab6573a))
+    (pin "2" (uuid 38af761e-2543-4336-930b-c7f16da046a5))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
-          (reference "D67") (unit 1)
+          (reference "D68") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "arisu-rescue:D-Device") (at 139.7 146.05 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 38510372-1755-4d2d-99c4-66405ed36921)
+    (property "Reference" "D33" (at 134.62 144.78 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "D" (at 135.89 147.32 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Diodes_SMD:D_SOD-123" (at 139.7 146.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 139.7 146.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ba661205-4805-4cae-960f-84162c9c06a4))
+    (pin "2" (uuid 5e30884e-2c66-4529-ac66-5438ebf9b601))
+    (instances
+      (project "arisu"
+        (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D33") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "arisu-rescue:SW_Push-Switch") (at 134.62 142.24 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 4380ec4e-4f1c-4bc3-a8a1-44c366e5f2e0)
+    (property "Reference" "SW33" (at 134.62 135.001 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "SW_Push" (at 134.62 137.3124 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "MX_Switch:SW_Cherry_MX_1.00u_PCB" (at 134.62 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 134.62 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid eee3691d-1131-4cbd-96d3-5d074543cd1f))
+    (pin "2" (uuid d1690f2d-cae9-4d8a-a805-24cce676f377))
+    (instances
+      (project "arisu"
+        (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW33") (unit 1)
         )
       )
     )
