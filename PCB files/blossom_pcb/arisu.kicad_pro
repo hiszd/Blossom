@@ -50,9 +50,9 @@
       },
       "diff_pair_dimensions": [
         {
-          "gap": 0.25,
-          "via_gap": 0.25,
-          "width": 0.25
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
         }
       ],
       "drc_exclusions": [],
@@ -117,7 +117,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.3,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
@@ -126,10 +126,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.39999999999999997,
-        "min_track_width": 0.19999999999999998,
+        "min_through_hole_diameter": 0.35,
+        "min_track_width": 0.15,
         "min_via_annular_width": 0.09999999999999999,
-        "min_via_diameter": 0.7,
+        "min_via_diameter": 0.6,
         "solder_mask_clearance": 0.051,
         "solder_mask_min_width": 0.25,
         "solder_mask_to_copper_clearance": 0.0,
@@ -178,14 +178,14 @@
         }
       ],
       "track_widths": [
-        0.25,
+        0.0,
         0.25,
         0.375
       ],
       "via_dimensions": [
         {
-          "diameter": 0.8,
-          "drill": 0.4
+          "diameter": 0.0,
+          "drill": 0.0
         },
         {
           "diameter": 0.8,
@@ -405,7 +405,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -424,7 +424,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -434,9 +434,26 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.15,
         "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_drill": 0.35,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.15,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.8,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB_DIFF_90",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
+        "via_diameter": 0.6,
+        "via_drill": 0.35,
         "wire_width": 6
       }
     ],
@@ -445,7 +462,216 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "+1V1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/GPIO0"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/GPIO1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/GPIO10"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/GPIO11"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/GPIO12"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/GPIO13"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/GPIO14"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/GPIO15"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/GPIO16"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/GPIO17"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/GPIO18"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/GPIO19"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/GPIO2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/GPIO20"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/GPIO21"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/GPIO22"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/GPIO23"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/GPIO24"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/GPIO25"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/GPIO26_ADC0"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/GPIO27_ADC1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/GPIO28_ADC2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/GPIO29_ADC3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/GPIO3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/GPIO4"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/GPIO5"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/GPIO6"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/GPIO7"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/GPIO8"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/GPIO9"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/QSPI_SCLK"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/QSPI_SD0"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/QSPI_SD1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/QSPI_SD2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/QSPI_SD3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/QSPI_SS"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/RUN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/SWCLK"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/SWD"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/XIN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/XOUT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/~{USB_BOOT}"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(C3-Pad1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J1-Pad4)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(R3-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(R4-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "VBUS"
+      },
+      {
+        "netclass": "USB_DIFF_90",
+        "pattern": "/USB_D+"
+      },
+      {
+        "netclass": "USB_DIFF_90",
+        "pattern": "/USB_D-"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
