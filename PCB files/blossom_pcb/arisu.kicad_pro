@@ -679,7 +679,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "arisu.dsn",
-      "step": "",
+      "step": "arisu.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
