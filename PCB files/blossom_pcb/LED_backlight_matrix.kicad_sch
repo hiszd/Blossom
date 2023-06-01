@@ -331,7 +331,7 @@
   (symbol (lib_id "arisu-rescue:WS2812B-LED") (at 139.7 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060ea7d59)
-    (property "Reference" "D101" (at 148.4376 29.3116 0)
+    (property "Reference" "LED1" (at 148.4376 29.3116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "WS2812B" (at 148.4376 31.623 0)
@@ -343,14 +343,14 @@
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (at 142.24 40.005 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 9ca09a27-dcdd-4ea7-a9d8-02095e41464a))
-    (pin "2" (uuid 05ad82e0-c889-422e-9c43-475f1e0ee683))
-    (pin "3" (uuid b68da565-6b01-41b1-ab75-c6ffba5de625))
-    (pin "4" (uuid b6e1708d-32a4-4df3-87fd-b5cd875b12b6))
+    (pin "1" (uuid c1ce0c25-79c1-49cb-9ee2-d609d683a3eb))
+    (pin "2" (uuid 05a3bba1-9756-4d39-962e-5bf3abc74881))
+    (pin "3" (uuid 7d90ed52-5293-411f-987f-0324ff13d876))
+    (pin "4" (uuid f7cc15c8-873d-4c43-ba67-5c20fd2ca9b1))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-000060e58188"
-          (reference "D101") (unit 1)
+          (reference "LED1") (unit 1)
         )
       )
     )
@@ -359,7 +359,7 @@
   (symbol (lib_id "arisu-rescue:WS2812B-LED") (at 177.8 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060eaa1b1)
-    (property "Reference" "D102" (at 186.5376 29.3116 0)
+    (property "Reference" "LED2" (at 186.5376 29.3116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "WS2812B" (at 186.5376 31.623 0)
@@ -378,7 +378,7 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-000060e58188"
-          (reference "D102") (unit 1)
+          (reference "LED2") (unit 1)
         )
       )
     )
@@ -387,7 +387,7 @@
   (symbol (lib_id "arisu-rescue:WS2812B-LED") (at 139.7 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060eb0cd9)
-    (property "Reference" "D105" (at 148.4376 67.4116 0)
+    (property "Reference" "LED5" (at 148.4376 67.4116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "WS2812B" (at 148.4376 69.723 0)
@@ -406,7 +406,7 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-000060e58188"
-          (reference "D105") (unit 1)
+          (reference "LED5") (unit 1)
         )
       )
     )
@@ -415,7 +415,7 @@
   (symbol (lib_id "arisu-rescue:WS2812B-LED") (at 177.8 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060eb0cdf)
-    (property "Reference" "D106" (at 186.5376 67.4116 0)
+    (property "Reference" "LED6" (at 186.5376 67.4116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "WS2812B" (at 186.5376 69.723 0)
@@ -434,7 +434,7 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-000060e58188"
-          (reference "D106") (unit 1)
+          (reference "LED6") (unit 1)
         )
       )
     )
@@ -443,7 +443,7 @@
   (symbol (lib_id "arisu-rescue:WS2812B-LED") (at 215.9 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060eb95cb)
-    (property "Reference" "D103" (at 224.6376 29.3116 0)
+    (property "Reference" "LED3" (at 224.6376 29.3116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "WS2812B" (at 224.6376 31.623 0)
@@ -462,7 +462,7 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-000060e58188"
-          (reference "D103") (unit 1)
+          (reference "LED3") (unit 1)
         )
       )
     )
@@ -471,7 +471,7 @@
   (symbol (lib_id "arisu-rescue:WS2812B-LED") (at 254 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060eb95d1)
-    (property "Reference" "D104" (at 262.7376 29.3116 0)
+    (property "Reference" "LED4" (at 262.7376 29.3116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "WS2812B" (at 262.7376 31.623 0)
@@ -490,7 +490,7 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-000060e58188"
-          (reference "D104") (unit 1)
+          (reference "LED4") (unit 1)
         )
       )
     )
@@ -499,7 +499,7 @@
   (symbol (lib_id "arisu-rescue:WS2812B-LED") (at 215.9 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060eb95d7)
-    (property "Reference" "D107" (at 224.6376 67.4116 0)
+    (property "Reference" "LED7" (at 224.6376 67.4116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "WS2812B" (at 224.6376 69.723 0)
@@ -518,7 +518,7 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-000060e58188"
-          (reference "D107") (unit 1)
+          (reference "LED7") (unit 1)
         )
       )
     )
@@ -527,7 +527,7 @@
   (symbol (lib_id "arisu-rescue:WS2812B-LED") (at 254 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060eb95dd)
-    (property "Reference" "D108" (at 262.7376 67.4116 0)
+    (property "Reference" "LED8" (at 262.7376 67.4116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "WS2812B" (at 262.7376 69.723 0)
@@ -546,7 +546,7 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-000060e58188"
-          (reference "D108") (unit 1)
+          (reference "LED8") (unit 1)
         )
       )
     )
