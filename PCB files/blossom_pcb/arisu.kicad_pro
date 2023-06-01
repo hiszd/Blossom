@@ -675,8 +675,8 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
-      "idf": "",
+      "gencad": "arisu.cad",
+      "idf": "arisu.emn",
       "netlist": "",
       "specctra_dsn": "arisu.dsn",
       "step": "arisu.step",
