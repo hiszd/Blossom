@@ -1872,11 +1872,19 @@
     (property "Datasheet" "" (at 25.4 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 25.4 32.131 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid ed9d8528-c136-43d1-b559-87e59aacb810))
     (pin "2" (uuid a2f7dcae-baee-4f70-af0a-a0a4495eb2e5))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW1") (unit 1)
         )
       )
@@ -1898,7 +1906,7 @@
     (property "Datasheet" "~" (at 30.48 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 30.48 43.18 90)
+    (property "LCSC" "C2972762" (at 25.4 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid af8a5fcb-199f-4637-9c3f-dda117d5a3e3))
@@ -1906,6 +1914,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D1") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D1") (unit 1)
         )
       )
@@ -1927,11 +1940,19 @@
     (property "Datasheet" "" (at 41.91 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 41.91 32.131 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 2c8ad842-72f3-40d9-89c4-4413142f3628))
     (pin "2" (uuid 62f0a20c-e47c-4ea8-8f82-3ac5031b7bad))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW2") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW2") (unit 1)
         )
       )
@@ -1953,7 +1974,7 @@
     (property "Datasheet" "~" (at 46.99 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 46.99 43.18 0)
+    (property "LCSC" "C2972762" (at 41.91 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d68cd0ba-8293-45cc-acad-89e5c4aab7a1))
@@ -1961,6 +1982,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D2") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D2") (unit 1)
         )
       )
@@ -1982,11 +2008,19 @@
     (property "Datasheet" "" (at 58.42 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 58.42 32.131 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 74d5eba1-a2c6-4197-99d2-363f133b75dc))
     (pin "2" (uuid 5661f042-bbfc-4fc5-8bc3-819b1be6c258))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW3") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW3") (unit 1)
         )
       )
@@ -2008,7 +2042,7 @@
     (property "Datasheet" "~" (at 63.5 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 63.5 43.18 0)
+    (property "LCSC" "C2972762" (at 58.42 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d189575e-892c-4c9b-a183-e3c293815934))
@@ -2016,6 +2050,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D3") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D3") (unit 1)
         )
       )
@@ -2037,11 +2076,19 @@
     (property "Datasheet" "" (at 74.93 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 74.93 32.131 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 72dcaabb-2198-4455-b48f-409cb2b57f6d))
     (pin "2" (uuid 888d26c8-4283-495e-b543-3bfbbba95860))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW4") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW4") (unit 1)
         )
       )
@@ -2063,7 +2110,7 @@
     (property "Datasheet" "~" (at 80.01 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 80.01 43.18 0)
+    (property "LCSC" "C2972762" (at 74.93 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 26e73226-2fa8-42ed-9d5c-84a1eeb8ef1c))
@@ -2071,6 +2118,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D4") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D4") (unit 1)
         )
       )
@@ -2092,11 +2144,19 @@
     (property "Datasheet" "" (at 91.44 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 91.44 32.131 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 9cb31bb4-4326-4581-8221-790aa593bc33))
     (pin "2" (uuid 7b4fa5f6-e32e-4841-8a30-15b788733363))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW5") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW5") (unit 1)
         )
       )
@@ -2118,7 +2178,7 @@
     (property "Datasheet" "~" (at 96.52 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 96.52 43.18 0)
+    (property "LCSC" "C2972762" (at 91.44 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3621f2dc-d882-4639-99a3-85fde87fa1d2))
@@ -2126,6 +2186,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D5") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D5") (unit 1)
         )
       )
@@ -2147,11 +2212,19 @@
     (property "Datasheet" "" (at 107.95 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 107.95 32.131 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 361fb08d-2f31-40e0-a4bd-1f66ff46e8b7))
     (pin "2" (uuid 9d931194-e5e4-4d5a-b7e7-732cf8c637b0))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW6") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW6") (unit 1)
         )
       )
@@ -2173,7 +2246,7 @@
     (property "Datasheet" "~" (at 113.03 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 113.03 43.18 0)
+    (property "LCSC" "C2972762" (at 107.95 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 167b5329-45fd-421f-897b-209d73d548d5))
@@ -2181,6 +2254,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D6") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D6") (unit 1)
         )
       )
@@ -2202,11 +2280,19 @@
     (property "Datasheet" "" (at 124.46 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 124.46 32.131 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 6e170ebf-293e-4866-a7b1-5543c7c3baf1))
     (pin "2" (uuid fde1b336-e44d-4594-afd1-e16484329b13))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW7") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW7") (unit 1)
         )
       )
@@ -2228,7 +2314,7 @@
     (property "Datasheet" "~" (at 129.54 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 129.54 43.18 0)
+    (property "LCSC" "C2972762" (at 124.46 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 72190123-b2c1-4c0e-b770-dfc61d5b84e5))
@@ -2236,6 +2322,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D7") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D7") (unit 1)
         )
       )
@@ -2257,11 +2348,19 @@
     (property "Datasheet" "" (at 256.54 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 256.54 77.851 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 805b3d0f-8f68-4552-9acb-3ec3b106193e))
     (pin "2" (uuid e9102f98-fb5b-4927-bf8d-bfd2cc27dcab))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW43") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW43") (unit 1)
         )
       )
@@ -2283,7 +2382,7 @@
     (property "Datasheet" "~" (at 96.52 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 96.52 88.9 0)
+    (property "LCSC" "C2972762" (at 91.44 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 247dd20e-3ff7-40c4-b661-d92f839aa8c8))
@@ -2291,6 +2390,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D33") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D33") (unit 1)
         )
       )
@@ -2312,11 +2416,19 @@
     (property "Datasheet" "" (at 140.97 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 140.97 123.571 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 9d8ff949-3356-4c5f-bb12-501ee8aa5d3c))
     (pin "2" (uuid 681f709a-2ed4-4e5b-9fb2-f6217fe346b1))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW68") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW68") (unit 1)
         )
       )
@@ -2338,11 +2450,19 @@
     (property "Datasheet" "" (at 190.5 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 190.5 32.131 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid b515a4a9-580f-4f36-a4c3-e9cdfc005219))
     (pin "2" (uuid e0ccc982-7da3-48d9-9bdc-4d2daf031790))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW9") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW9") (unit 1)
         )
       )
@@ -2364,11 +2484,19 @@
     (property "Datasheet" "" (at 190.5 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 190.5 77.851 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid ceb06167-6b87-40af-ad7d-013dbe4f39e9))
     (pin "2" (uuid d2c83ad4-82cc-4ed9-80bd-d71cf6d4d3f2))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW39") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW39") (unit 1)
         )
       )
@@ -2390,11 +2518,19 @@
     (property "Datasheet" "" (at 207.01 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 207.01 77.851 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 7ac913b3-4c5f-4ce2-9dd3-ed35e5c50360))
     (pin "2" (uuid 5673de37-e9f9-40ab-a047-4cc3d895b4dc))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW40") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW40") (unit 1)
         )
       )
@@ -2416,11 +2552,19 @@
     (property "Datasheet" "" (at 273.05 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 273.05 54.991 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 0a28057c-0487-45b5-826d-a41e826fe7bc))
     (pin "2" (uuid 2ddc5eba-2fb2-4d8e-b86b-6ef41b780747))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW28") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW28") (unit 1)
         )
       )
@@ -2442,11 +2586,19 @@
     (property "Datasheet" "" (at 157.48 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 157.48 77.851 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid c1a80eeb-6c1f-467d-828d-e354e946387a))
     (pin "2" (uuid b8877e9d-a403-4c84-8ff2-d9cecef6ae78))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW37") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW37") (unit 1)
         )
       )
@@ -2468,7 +2620,7 @@
     (property "Datasheet" "~" (at 228.6 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 228.6 111.76 0)
+    (property "LCSC" "C2972762" (at 223.52 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a65b6ac3-c517-4893-acda-a267e7e5c9cd))
@@ -2476,6 +2628,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D57") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D57") (unit 1)
         )
       )
@@ -2497,11 +2654,19 @@
     (property "Datasheet" "" (at 91.44 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 91.44 123.571 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid d55de9c9-d702-46d1-bb19-cf4461e61083))
     (pin "2" (uuid f7e4c48b-177e-4889-af00-f7ae72a1730d))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW65") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW65") (unit 1)
         )
       )
@@ -2523,11 +2688,19 @@
     (property "Datasheet" "" (at 207.01 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 207.01 123.571 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid e24451f6-a210-439d-86f6-d941e50a7364))
     (pin "2" (uuid b9186ed4-78ef-4eda-9175-dff732b46a3f))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW72") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW72") (unit 1)
         )
       )
@@ -2549,7 +2722,7 @@
     (property "Datasheet" "~" (at 278.13 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 278.13 66.04 0)
+    (property "LCSC" "C2972762" (at 273.05 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d1070b39-5844-4e23-820f-8f8253d662c0))
@@ -2557,6 +2730,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D28") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D28") (unit 1)
         )
       )
@@ -2578,7 +2756,7 @@
     (property "Datasheet" "~" (at 63.5 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 63.5 111.76 0)
+    (property "LCSC" "C2972762" (at 58.42 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid abfa1a37-37ab-4c92-b5f5-cd9b7f89fbd7))
@@ -2586,6 +2764,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D47") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D47") (unit 1)
         )
       )
@@ -2616,6 +2799,11 @@
           (reference "SW51_Stab1") (unit 1)
         )
       )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
+          (reference "SW51_Stab1") (unit 1)
+        )
+      )
     )
   )
 
@@ -2634,11 +2822,19 @@
     (property "Datasheet" "" (at 25.4 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 25.4 77.851 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 8aac320a-277d-4b34-b697-a843cbb60a2d))
     (pin "2" (uuid e6220a7f-f7b4-4d99-8f04-595193769ebd))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW29") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW29") (unit 1)
         )
       )
@@ -2660,7 +2856,7 @@
     (property "Datasheet" "~" (at 228.6 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 228.6 88.9 0)
+    (property "LCSC" "C2972762" (at 223.52 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 62725c87-db2c-4cd6-83d1-96849850aa76))
@@ -2668,6 +2864,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D41") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D41") (unit 1)
         )
       )
@@ -2689,7 +2890,7 @@
     (property "Datasheet" "~" (at 80.01 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 80.01 88.9 0)
+    (property "LCSC" "C2972762" (at 74.93 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid bc3f3160-5f22-4b4b-b9af-3a4beb17c895))
@@ -2697,6 +2898,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D32") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D32") (unit 1)
         )
       )
@@ -2718,11 +2924,19 @@
     (property "Datasheet" "" (at 157.48 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 157.48 100.711 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 0e56ade9-5696-4eb0-800b-a55f319c924e))
     (pin "2" (uuid b40924c7-4194-4fd1-8343-31d0e4fe0506))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW53") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW53") (unit 1)
         )
       )
@@ -2744,7 +2958,7 @@
     (property "Datasheet" "~" (at 278.13 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 278.13 88.9 0)
+    (property "LCSC" "C2972762" (at 273.05 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 15f71e08-7737-4f49-9e79-2989794b8470))
@@ -2752,6 +2966,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D44") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D44") (unit 1)
         )
       )
@@ -2773,11 +2992,19 @@
     (property "Datasheet" "" (at 58.42 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 58.42 100.711 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid f9dfefa2-85d4-4ea4-a07e-605849bfe3ee))
     (pin "2" (uuid a15372e3-926e-4b47-a276-f12215fa4122))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW47") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW47") (unit 1)
         )
       )
@@ -2799,7 +3026,7 @@
     (property "Datasheet" "~" (at 96.52 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 96.52 134.62 0)
+    (property "LCSC" "C2972762" (at 91.44 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fdbcce13-ff67-4542-b25a-d66cbb732dc9))
@@ -2807,6 +3034,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D65") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D65") (unit 1)
         )
       )
@@ -2828,11 +3060,19 @@
     (property "Datasheet" "" (at 240.03 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 240.03 32.131 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 770bbb8d-077a-477d-a57c-1837ee8ef6fc))
     (pin "2" (uuid 7e4b75eb-78a7-4eaa-9e2d-26ca866aebaa))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW12") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW12") (unit 1)
         )
       )
@@ -2854,11 +3094,19 @@
     (property "Datasheet" "" (at 223.52 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 223.52 123.571 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid a4fd082c-fc8f-46da-a96a-1639c1c02813))
     (pin "2" (uuid abfc4f4f-f5b7-4dac-a624-6f5ad5664389))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW73") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW73") (unit 1)
         )
       )
@@ -2880,7 +3128,7 @@
     (property "Datasheet" "~" (at 179.07 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 179.07 134.62 0)
+    (property "LCSC" "C2972762" (at 173.99 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid efb2ddc1-17ec-4cd9-8179-335fbfd11dfa))
@@ -2888,6 +3136,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D70") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D70") (unit 1)
         )
       )
@@ -2909,11 +3162,19 @@
     (property "Datasheet" "" (at 107.95 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 107.95 100.711 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 3cc604be-08c3-47ec-9225-5a995834ff1f))
     (pin "2" (uuid a9c67f31-1681-4475-a3a4-dbca43cf3775))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW50") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW50") (unit 1)
         )
       )
@@ -2935,11 +3196,19 @@
     (property "Datasheet" "" (at 256.54 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 256.54 100.711 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid ee273200-b279-4d6c-910d-e735dbbeac63))
     (pin "2" (uuid 3cac3d9b-b82f-4795-810e-7814912f919b))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW59") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW59") (unit 1)
         )
       )
@@ -2961,7 +3230,7 @@
     (property "Datasheet" "~" (at 261.62 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 261.62 43.18 0)
+    (property "LCSC" "C2972762" (at 256.54 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid cdb0f5dc-0deb-406e-8b8e-6415024549a5))
@@ -2969,6 +3238,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D13") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D13") (unit 1)
         )
       )
@@ -2990,7 +3264,7 @@
     (property "Datasheet" "~" (at 245.11 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 245.11 88.9 0)
+    (property "LCSC" "C2972762" (at 240.03 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid aba5a3c2-cf19-435b-b946-9a9f2a961b89))
@@ -2998,6 +3272,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D42") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D42") (unit 1)
         )
       )
@@ -3019,7 +3298,7 @@
     (property "Datasheet" "~" (at 129.54 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 129.54 66.04 0)
+    (property "LCSC" "C2972762" (at 124.46 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 29fe3d64-bc96-4847-90d9-11209ac6057b))
@@ -3027,6 +3306,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D21") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D21") (unit 1)
         )
       )
@@ -3048,11 +3332,19 @@
     (property "Datasheet" "" (at 223.52 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 223.52 77.851 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid ce893952-b280-4727-b17b-037b56831b4d))
     (pin "2" (uuid 366e75eb-17f2-4e7c-a393-7846a0d507a1))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW41") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW41") (unit 1)
         )
       )
@@ -3074,7 +3366,7 @@
     (property "Datasheet" "~" (at 179.07 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 179.07 88.9 0)
+    (property "LCSC" "C2972762" (at 173.99 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a9c71b14-2416-419d-a880-b67a4f9fba92))
@@ -3082,6 +3374,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D38") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D38") (unit 1)
         )
       )
@@ -3103,7 +3400,7 @@
     (property "Datasheet" "~" (at 212.09 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 212.09 134.62 0)
+    (property "LCSC" "C2972762" (at 207.01 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 41063685-171e-4665-88ad-01017b13082b))
@@ -3111,6 +3408,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D72") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D72") (unit 1)
         )
       )
@@ -3132,7 +3434,7 @@
     (property "Datasheet" "~" (at 46.99 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 46.99 88.9 0)
+    (property "LCSC" "C2972762" (at 41.91 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2c3836d4-2f98-464c-be82-aac34ae9c1ab))
@@ -3140,6 +3442,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D30") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D30") (unit 1)
         )
       )
@@ -3161,11 +3468,19 @@
     (property "Datasheet" "" (at 273.05 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 273.05 77.851 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 265c5171-9c79-49e1-be87-80e0cb3919b8))
     (pin "2" (uuid 88101bfb-cbde-4aab-9b9d-3254c95d0563))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW44") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW44") (unit 1)
         )
       )
@@ -3187,7 +3502,7 @@
     (property "Datasheet" "~" (at 162.56 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 162.56 88.9 0)
+    (property "LCSC" "C2972762" (at 157.48 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c3106ccb-8353-446c-901b-939ad19e32aa))
@@ -3195,6 +3510,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D37") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D37") (unit 1)
         )
       )
@@ -3216,7 +3536,7 @@
     (property "Datasheet" "~" (at 212.09 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 212.09 111.76 0)
+    (property "LCSC" "C2972762" (at 207.01 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f7b5c99e-7cfe-4c09-b0c4-29108b6220e9))
@@ -3224,6 +3544,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D56") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D56") (unit 1)
         )
       )
@@ -3245,7 +3570,7 @@
     (property "Datasheet" "~" (at 212.09 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 212.09 43.18 0)
+    (property "LCSC" "C2972762" (at 207.01 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3de746d7-ca04-4a35-a332-4f40d34dd6a0))
@@ -3253,6 +3578,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D10") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D10") (unit 1)
         )
       )
@@ -3274,7 +3604,7 @@
     (property "Datasheet" "~" (at 195.58 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 195.58 111.76 0)
+    (property "LCSC" "C2972762" (at 190.5 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9f88ec96-ea2a-49cc-bd6f-f71b65ac9010))
@@ -3282,6 +3612,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D55") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D55") (unit 1)
         )
       )
@@ -3303,11 +3638,19 @@
     (property "Datasheet" "" (at 74.93 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 74.93 123.571 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid e9170553-c54e-4fa2-9494-61f4f5280092))
     (pin "2" (uuid 686dab01-8284-45a2-8f10-56a3ba9f4261))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW64") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW64") (unit 1)
         )
       )
@@ -3329,7 +3672,7 @@
     (property "Datasheet" "~" (at 245.11 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 245.11 43.18 0)
+    (property "LCSC" "C2972762" (at 240.03 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4cb32b3f-3743-44f7-98b8-7d9c5a51a620))
@@ -3337,6 +3680,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D12") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D12") (unit 1)
         )
       )
@@ -3358,11 +3706,19 @@
     (property "Datasheet" "" (at 207.01 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 207.01 100.711 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid d1894430-9812-4875-affb-4eaae41f61df))
     (pin "2" (uuid b97a25db-d5c2-4f4e-95c6-7a471004e8fa))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW56") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW56") (unit 1)
         )
       )
@@ -3384,7 +3740,7 @@
     (property "Datasheet" "~" (at 129.54 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 129.54 88.9 0)
+    (property "LCSC" "C2972762" (at 124.46 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8985beba-974d-4920-a8b1-bdf2854983ba))
@@ -3392,6 +3748,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D35") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D35") (unit 1)
         )
       )
@@ -3413,7 +3774,7 @@
     (property "Datasheet" "~" (at 80.01 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 80.01 134.62 0)
+    (property "LCSC" "C2972762" (at 74.93 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 00cec409-44a0-4378-9618-12d8ccde41da))
@@ -3421,6 +3782,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D64") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D64") (unit 1)
         )
       )
@@ -3442,7 +3808,7 @@
     (property "Datasheet" "~" (at 179.07 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 179.07 111.76 0)
+    (property "LCSC" "C2972762" (at 173.99 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 074d767a-18c9-4a33-a6fc-08980f8330c9))
@@ -3450,6 +3816,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D54") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D54") (unit 1)
         )
       )
@@ -3471,7 +3842,7 @@
     (property "Datasheet" "~" (at 146.05 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 146.05 111.76 0)
+    (property "LCSC" "C2972762" (at 140.97 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7a6e5fe3-4eec-46de-ae6a-efa3f38e6f44))
@@ -3479,6 +3850,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D52") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D52") (unit 1)
         )
       )
@@ -3500,7 +3876,7 @@
     (property "Datasheet" "~" (at 278.13 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 278.13 43.18 0)
+    (property "LCSC" "C2972762" (at 273.05 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e4c3d7f7-6ee3-4f56-99a5-5acecd05e067))
@@ -3508,6 +3884,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D14") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D14") (unit 1)
         )
       )
@@ -3529,11 +3910,19 @@
     (property "Datasheet" "" (at 207.01 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 207.01 54.991 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 199c1384-1f2a-4549-81e6-c23d03a6f881))
     (pin "2" (uuid 94e111e5-14e5-409e-867e-0af69570fb4e))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW24") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW24") (unit 1)
         )
       )
@@ -3555,7 +3944,7 @@
     (property "Datasheet" "~" (at 96.52 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 96.52 111.76 0)
+    (property "LCSC" "C2972762" (at 91.44 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 54ffe64e-01ff-409f-ba04-f7c1b8da6734))
@@ -3563,6 +3952,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D49") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D49") (unit 1)
         )
       )
@@ -3584,11 +3978,19 @@
     (property "Datasheet" "" (at 124.46 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 124.46 77.851 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid ac09ebfb-c38a-4762-aaa8-5ed7b0402605))
     (pin "2" (uuid 935d5434-bc0e-4f4d-b797-558af2c7d412))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW35") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW35") (unit 1)
         )
       )
@@ -3610,7 +4012,7 @@
     (property "Datasheet" "~" (at 278.13 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 278.13 111.76 0)
+    (property "LCSC" "C2972762" (at 273.05 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f7dc5e5e-0605-41e6-a1a5-ff95a6531e34))
@@ -3618,6 +4020,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D60") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D60") (unit 1)
         )
       )
@@ -3639,7 +4046,7 @@
     (property "Datasheet" "~" (at 245.11 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 245.11 134.62 0)
+    (property "LCSC" "C2972762" (at 240.03 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 09dc2a49-c935-491d-8155-24d6d9e86d9f))
@@ -3647,6 +4054,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D74") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D74") (unit 1)
         )
       )
@@ -3668,7 +4080,7 @@
     (property "Datasheet" "~" (at 113.03 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 113.03 88.9 0)
+    (property "LCSC" "C2972762" (at 107.95 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4665d3fe-9cfa-48e0-921d-77891eacb06d))
@@ -3676,6 +4088,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D34") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D34") (unit 1)
         )
       )
@@ -3697,11 +4114,19 @@
     (property "Datasheet" "" (at 256.54 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 256.54 32.131 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid e7acd38e-b5de-4aff-9860-fcf0365bc879))
     (pin "2" (uuid a266d315-1aaa-4cf4-89ea-2a9af52e221b))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW13") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW13") (unit 1)
         )
       )
@@ -3723,11 +4148,19 @@
     (property "Datasheet" "" (at 91.44 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 91.44 100.711 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 6e9a3a27-70dc-452c-9374-cdae2a11ed17))
     (pin "2" (uuid fbaa98bf-505e-4f4d-a3bb-31260306f7f2))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW49") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW49") (unit 1)
         )
       )
@@ -3749,7 +4182,7 @@
     (property "Datasheet" "~" (at 195.58 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 195.58 66.04 0)
+    (property "LCSC" "C2972762" (at 190.5 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e5434fc1-4b49-4058-aafe-4b4e352e6273))
@@ -3757,6 +4190,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D23") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D23") (unit 1)
         )
       )
@@ -3778,7 +4216,7 @@
     (property "Datasheet" "~" (at 46.99 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 46.99 66.04 0)
+    (property "LCSC" "C2972762" (at 41.91 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a9fc2e3c-e5e6-46cd-a802-b3aaa37cf870))
@@ -3786,6 +4224,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D16") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D16") (unit 1)
         )
       )
@@ -3807,11 +4250,19 @@
     (property "Datasheet" "" (at 91.44 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 91.44 77.851 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid c03a4798-da84-4dd9-960e-46b338ca15b6))
     (pin "2" (uuid bc5ee875-54cf-41f8-a88f-8491047c945c))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW33") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW33") (unit 1)
         )
       )
@@ -3833,11 +4284,19 @@
     (property "Datasheet" "" (at 190.5 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 190.5 123.571 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 3e03d2c5-1906-4c51-afe1-c24a38c4cacb))
     (pin "2" (uuid 3bc675ba-ccf4-4810-8d4a-0e29ef1cd2ed))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW71") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW71") (unit 1)
         )
       )
@@ -3859,7 +4318,7 @@
     (property "Datasheet" "~" (at 146.05 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 146.05 88.9 0)
+    (property "LCSC" "C2972762" (at 140.97 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0ddbd8e2-3452-4797-9e78-508386d25736))
@@ -3867,6 +4326,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D36") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D36") (unit 1)
         )
       )
@@ -3888,7 +4352,7 @@
     (property "Datasheet" "~" (at 30.48 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 30.48 88.9 0)
+    (property "LCSC" "C2972762" (at 25.4 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7a292397-785b-4bcd-b66f-e0ee4f8299f8))
@@ -3896,6 +4360,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D29") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D29") (unit 1)
         )
       )
@@ -3917,11 +4386,19 @@
     (property "Datasheet" "" (at 173.99 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 173.99 77.851 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 2298160d-f67b-45c6-8081-fad5953943e4))
     (pin "2" (uuid bbd0671c-773a-414e-a4e0-36c26993fe66))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW38") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW38") (unit 1)
         )
       )
@@ -3943,11 +4420,19 @@
     (property "Datasheet" "" (at 207.01 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 207.01 32.131 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 70fb7317-8209-4740-9f89-d38d5aae3bc4))
     (pin "2" (uuid 15e46540-8344-4f2b-a2b0-c2128040ba3c))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW10") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW10") (unit 1)
         )
       )
@@ -3969,7 +4454,7 @@
     (property "Datasheet" "~" (at 63.5 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 63.5 66.04 0)
+    (property "LCSC" "C2972762" (at 58.42 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0d62656b-bb70-49b8-bd85-f9495a97a764))
@@ -3977,6 +4462,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D17") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D17") (unit 1)
         )
       )
@@ -3998,11 +4488,19 @@
     (property "Datasheet" "" (at 25.4 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 25.4 54.991 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid f08165ca-a9b9-435d-9362-fc48f56cb94d))
     (pin "2" (uuid 56b5444e-0fa0-4f6e-8bf0-113e83fb3183))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW15") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW15") (unit 1)
         )
       )
@@ -4024,11 +4522,19 @@
     (property "Datasheet" "" (at 74.93 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 74.93 100.711 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 251ea11b-300b-42c6-af7b-53315414b52b))
     (pin "2" (uuid 8a8db238-e1e5-4836-b6b9-da8c2d8a231f))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW48") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW48") (unit 1)
         )
       )
@@ -4050,11 +4556,19 @@
     (property "Datasheet" "" (at 58.42 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 58.42 123.571 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 91c407ea-7583-403a-88d8-74353c8e35ee))
     (pin "2" (uuid e316d33a-86fe-4b23-8389-d0c4eef6830a))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW63") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW63") (unit 1)
         )
       )
@@ -4076,7 +4590,7 @@
     (property "Datasheet" "~" (at 261.62 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 261.62 88.9 0)
+    (property "LCSC" "C2972762" (at 256.54 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 67a58ce7-89ea-4793-9e04-6e68544ec547))
@@ -4084,6 +4598,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D43") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D43") (unit 1)
         )
       )
@@ -4105,11 +4624,19 @@
     (property "Datasheet" "" (at 74.93 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 74.93 77.851 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 14537e81-51d3-4daf-9e38-44dccb54c4e0))
     (pin "2" (uuid dc17f099-3e2c-4ac5-afe7-3c29f855f236))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW32") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW32") (unit 1)
         )
       )
@@ -4131,11 +4658,19 @@
     (property "Datasheet" "" (at 58.42 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 58.42 77.851 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 854d8149-8403-4d4e-96dc-57d5667ac765))
     (pin "2" (uuid 57f2cdd4-b58a-4107-88b2-e3f9118a9cd8))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW31") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW31") (unit 1)
         )
       )
@@ -4157,7 +4692,7 @@
     (property "Datasheet" "~" (at 80.01 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 80.01 66.04 0)
+    (property "LCSC" "C2972762" (at 74.93 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6d074fa4-1e1c-469a-87f1-04ea1ccebba1))
@@ -4165,6 +4700,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D18") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D18") (unit 1)
         )
       )
@@ -4186,11 +4726,19 @@
     (property "Datasheet" "" (at 256.54 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 256.54 54.991 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 78df2e43-8c5b-4f78-84fb-28c6c0938214))
     (pin "2" (uuid 60edd6ae-dee2-4538-8bcf-09c146774fb2))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW27") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW27") (unit 1)
         )
       )
@@ -4212,11 +4760,19 @@
     (property "Datasheet" "" (at 58.42 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 58.42 54.991 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 8ebe7e47-de09-47d4-86dd-37831e2a9118))
     (pin "2" (uuid fd57435b-2053-46da-97a2-d58b3436c059))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW17") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW17") (unit 1)
         )
       )
@@ -4238,11 +4794,19 @@
     (property "Datasheet" "" (at 240.03 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 240.03 100.711 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid aee96186-c5d8-4d3f-b4ca-d19601dbbdbf))
     (pin "2" (uuid 48f0c740-35df-4b60-8823-5091bd719d51))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW58") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW58") (unit 1)
         )
       )
@@ -4264,7 +4828,7 @@
     (property "Datasheet" "~" (at 195.58 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 195.58 134.62 0)
+    (property "LCSC" "C2972762" (at 190.5 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid bed7fcb8-6658-435c-a309-04bde1f94ee4))
@@ -4272,6 +4836,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D71") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D71") (unit 1)
         )
       )
@@ -4293,7 +4862,7 @@
     (property "Datasheet" "~" (at 30.48 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 30.48 111.76 0)
+    (property "LCSC" "C2972762" (at 25.4 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 15a4c4bd-3c38-42b0-b3bf-9716d11bb528))
@@ -4301,6 +4870,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D45") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D45") (unit 1)
         )
       )
@@ -4322,11 +4896,19 @@
     (property "Datasheet" "" (at 74.93 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 74.93 54.991 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid f2e50411-53bb-4ebf-903f-cee355cac2cb))
     (pin "2" (uuid 2e25546d-baa6-4883-ad4e-8d46fcd22bfb))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW18") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW18") (unit 1)
         )
       )
@@ -4348,7 +4930,7 @@
     (property "Datasheet" "~" (at 113.03 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 113.03 134.62 0)
+    (property "LCSC" "C2972762" (at 107.95 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f4202d63-1630-4e98-bd2b-a51331c00375))
@@ -4356,6 +4938,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D66") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D66") (unit 1)
         )
       )
@@ -4377,7 +4964,7 @@
     (property "Datasheet" "~" (at 46.99 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 46.99 111.76 0)
+    (property "LCSC" "C2972762" (at 41.91 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 50727c95-5357-4996-bd93-401e2f389426))
@@ -4385,6 +4972,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D46") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D46") (unit 1)
         )
       )
@@ -4406,11 +4998,19 @@
     (property "Datasheet" "" (at 190.5 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 190.5 100.711 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 2e084729-5ed0-4fb5-8ac8-c68e683b3ec3))
     (pin "2" (uuid 1c0ee3af-3bce-4b14-aac6-81eebf111a20))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW55") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW55") (unit 1)
         )
       )
@@ -4432,11 +5032,19 @@
     (property "Datasheet" "" (at 25.4 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 25.4 123.571 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 317e52de-111d-4b2a-bfe9-197e33091d22))
     (pin "2" (uuid 8216ce56-f10c-4828-aaa5-007a5d2be9a8))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW61") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW61") (unit 1)
         )
       )
@@ -4458,7 +5066,7 @@
     (property "Datasheet" "~" (at 30.48 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 30.48 66.04 0)
+    (property "LCSC" "C2972762" (at 25.4 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c6ee7d04-206a-44d7-ad82-9af93d9884a9))
@@ -4466,6 +5074,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D15") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D15") (unit 1)
         )
       )
@@ -4487,7 +5100,7 @@
     (property "Datasheet" "~" (at 261.62 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 261.62 66.04 0)
+    (property "LCSC" "C2972762" (at 256.54 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4c378ae8-c743-4853-8160-b6d367fae07c))
@@ -4495,6 +5108,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D27") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D27") (unit 1)
         )
       )
@@ -4516,11 +5134,19 @@
     (property "Datasheet" "" (at 223.52 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 223.52 32.131 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 06464273-f2d9-4083-b37b-07e60b338713))
     (pin "2" (uuid 36149e44-29e5-48ef-a86a-0a01d3c2669b))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW11") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW11") (unit 1)
         )
       )
@@ -4542,11 +5168,19 @@
     (property "Datasheet" "" (at 223.52 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 223.52 54.991 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 39fd8a4f-edba-46ec-896b-4bdc96a09d10))
     (pin "2" (uuid c3798654-1734-4eff-ba58-9613c9d4aa43))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW25") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW25") (unit 1)
         )
       )
@@ -4568,7 +5202,7 @@
     (property "Datasheet" "~" (at 228.6 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 228.6 134.62 0)
+    (property "LCSC" "C2972762" (at 223.52 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid de1e965e-cd6e-4bd6-962e-c3efc18b92eb))
@@ -4576,6 +5210,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D73") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D73") (unit 1)
         )
       )
@@ -4597,7 +5236,7 @@
     (property "Datasheet" "~" (at 228.6 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 228.6 43.18 0)
+    (property "LCSC" "C2972762" (at 223.52 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a828482e-11cb-4477-b3d7-3a305d996ca2))
@@ -4605,6 +5244,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D11") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D11") (unit 1)
         )
       )
@@ -4626,11 +5270,19 @@
     (property "Datasheet" "" (at 273.05 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 273.05 100.711 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 9ccf6a37-0e9f-4ad4-b633-56f5d815a2bb))
     (pin "2" (uuid 00ad2f60-8a25-4f69-ae4b-84d51a798dc1))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW60") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW60") (unit 1)
         )
       )
@@ -4652,11 +5304,19 @@
     (property "Datasheet" "" (at 140.97 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 140.97 100.711 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 9cdb4eb1-04fd-4ad3-b6d1-d53d5b2d4d85))
     (pin "2" (uuid 23ad6548-186e-4057-9187-596eb71bdd06))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW52") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW52") (unit 1)
         )
       )
@@ -4678,7 +5338,7 @@
     (property "Datasheet" "~" (at 129.54 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 129.54 134.62 0)
+    (property "LCSC" "C2972762" (at 124.46 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 189dedff-2b94-4104-b85b-27ff26d5c1f5))
@@ -4686,6 +5346,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D67") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D67") (unit 1)
         )
       )
@@ -4707,7 +5372,7 @@
     (property "Datasheet" "~" (at 228.6 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 228.6 66.04 0)
+    (property "LCSC" "C2972762" (at 223.52 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d181b8ff-8d6c-463a-8066-1be81aee4144))
@@ -4715,6 +5380,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D25") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D25") (unit 1)
         )
       )
@@ -4736,7 +5406,7 @@
     (property "Datasheet" "~" (at 80.01 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 80.01 111.76 0)
+    (property "LCSC" "C2972762" (at 74.93 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3cc96773-26b1-451e-8317-66b5c524cb90))
@@ -4744,6 +5414,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D48") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D48") (unit 1)
         )
       )
@@ -4765,11 +5440,19 @@
     (property "Datasheet" "" (at 240.03 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 240.03 54.991 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 719c3bd1-a407-421d-9ee4-4e82dc01806e))
     (pin "2" (uuid f32367fe-7d9b-49a0-ba5e-c132d46bb24d))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW26") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW26") (unit 1)
         )
       )
@@ -4791,7 +5474,7 @@
     (property "Datasheet" "~" (at 63.5 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 63.5 88.9 0)
+    (property "LCSC" "C2972762" (at 58.42 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ee4c63b2-24c4-4191-a1d9-a8ff8bead605))
@@ -4799,6 +5482,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D31") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D31") (unit 1)
         )
       )
@@ -4820,7 +5508,7 @@
     (property "Datasheet" "~" (at 212.09 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 212.09 66.04 0)
+    (property "LCSC" "C2972762" (at 207.01 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e942e931-b677-4185-963c-032443c4c721))
@@ -4828,6 +5516,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D24") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D24") (unit 1)
         )
       )
@@ -4849,11 +5542,19 @@
     (property "Datasheet" "" (at 240.03 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 240.03 123.571 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 9416283e-bd1f-45e1-ab0c-e72aab6aa957))
     (pin "2" (uuid 25bb17e3-0413-41a6-9047-5b130f681ce5))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW74") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW74") (unit 1)
         )
       )
@@ -4875,7 +5576,7 @@
     (property "Datasheet" "~" (at 278.13 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 278.13 134.62 0)
+    (property "LCSC" "C2972762" (at 273.05 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2330f79c-888a-4ae0-bbe8-15793ca8cab2))
@@ -4883,6 +5584,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D76") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D76") (unit 1)
         )
       )
@@ -4913,6 +5619,11 @@
           (reference "SW36_Stab1") (unit 1)
         )
       )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
+          (reference "SW36_Stab1") (unit 1)
+        )
+      )
     )
   )
 
@@ -4931,11 +5642,19 @@
     (property "Datasheet" "" (at 273.05 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 273.05 123.571 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 3330f8b9-1bff-41b7-85b1-c9fa96a8b646))
     (pin "2" (uuid ff363bac-2ecd-446a-ba28-32f932c3b816))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW76") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW76") (unit 1)
         )
       )
@@ -4957,7 +5676,7 @@
     (property "Datasheet" "~" (at 63.5 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 63.5 134.62 0)
+    (property "LCSC" "C2972762" (at 58.42 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0463eed5-913c-47d7-ad5c-e783ba4eef5f))
@@ -4965,6 +5684,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D63") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D63") (unit 1)
         )
       )
@@ -4986,11 +5710,19 @@
     (property "Datasheet" "" (at 273.05 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 273.05 32.131 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 077d71e7-fa08-4371-869d-ddda70ff62aa))
     (pin "2" (uuid b1003e7f-f08d-4997-b4fa-0dc2a2c8b31e))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW14") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW14") (unit 1)
         )
       )
@@ -5012,11 +5744,19 @@
     (property "Datasheet" "" (at 140.97 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 140.97 77.851 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 2e9fce93-245c-4cf9-8f87-371518ccb114))
     (pin "2" (uuid aa62501c-9e65-49c9-9999-7130b8240de3))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW36") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW36") (unit 1)
         )
       )
@@ -5038,7 +5778,7 @@
     (property "Datasheet" "~" (at 162.56 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 162.56 134.62 0)
+    (property "LCSC" "C2972762" (at 157.48 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 36d163d1-4ee9-4685-a880-882beba63ec8))
@@ -5046,6 +5786,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D69") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D69") (unit 1)
         )
       )
@@ -5067,11 +5812,19 @@
     (property "Datasheet" "" (at 173.99 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 173.99 54.991 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 08261567-7d89-4358-be15-2a88a9c3cfa0))
     (pin "2" (uuid bf409ab5-ea53-4f22-96cb-9fd5165f446d))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW22") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW22") (unit 1)
         )
       )
@@ -5093,7 +5846,7 @@
     (property "Datasheet" "~" (at 30.48 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 30.48 134.62 0)
+    (property "LCSC" "C2972762" (at 25.4 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6a4324fd-4a87-48d4-80c2-37115263ee13))
@@ -5101,6 +5854,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D61") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D61") (unit 1)
         )
       )
@@ -5122,7 +5880,7 @@
     (property "Datasheet" "~" (at 245.11 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 245.11 111.76 0)
+    (property "LCSC" "C2972762" (at 240.03 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 10b5c0e8-5a18-493b-a38d-c37f1c017cd8))
@@ -5130,6 +5888,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D58") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D58") (unit 1)
         )
       )
@@ -5151,11 +5914,19 @@
     (property "Datasheet" "" (at 124.46 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 124.46 123.571 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 00687cf7-393d-4594-b7c9-c3b56541d90c))
     (pin "2" (uuid 9d7df541-ad8b-45c7-b8da-388ca35380c2))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW67") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW67") (unit 1)
         )
       )
@@ -5177,7 +5948,7 @@
     (property "Datasheet" "~" (at 195.58 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 195.58 88.9 0)
+    (property "LCSC" "C2972762" (at 190.5 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 39f6c235-598a-43da-b7d8-c7e3d1341478))
@@ -5185,6 +5956,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D39") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D39") (unit 1)
         )
       )
@@ -5206,11 +5982,19 @@
     (property "Datasheet" "" (at 41.91 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 41.91 54.991 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 95893bdf-4ed4-414a-91ff-5de5b36b42c3))
     (pin "2" (uuid b42f480b-c65d-49cf-bb75-98deeee85dec))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW16") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW16") (unit 1)
         )
       )
@@ -5232,7 +6016,7 @@
     (property "Datasheet" "~" (at 129.54 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 129.54 111.76 0)
+    (property "LCSC" "C2972762" (at 124.46 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ed442470-37da-4f62-8762-dfa02418aaae))
@@ -5240,6 +6024,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D51") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D51") (unit 1)
         )
       )
@@ -5261,7 +6050,7 @@
     (property "Datasheet" "~" (at 46.99 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 46.99 134.62 0)
+    (property "LCSC" "C2972762" (at 41.91 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid eac81e02-2037-47e4-ac7d-e026619c8a1e))
@@ -5269,6 +6058,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D62") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D62") (unit 1)
         )
       )
@@ -5290,7 +6084,7 @@
     (property "Datasheet" "~" (at 212.09 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 212.09 88.9 0)
+    (property "LCSC" "C2972762" (at 207.01 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 34d1b489-9d41-429a-aeaf-4dd52842f520))
@@ -5298,6 +6092,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D40") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D40") (unit 1)
         )
       )
@@ -5319,11 +6118,19 @@
     (property "Datasheet" "" (at 107.95 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 107.95 123.571 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 514513ba-b51b-433f-abba-e0f3e95b1023))
     (pin "2" (uuid b567b397-3b75-462c-9810-6728a35b75b6))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW66") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW66") (unit 1)
         )
       )
@@ -5345,11 +6152,19 @@
     (property "Datasheet" "" (at 223.52 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 223.52 100.711 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid eca17280-db44-4753-b70e-cc6623d7ce0b))
     (pin "2" (uuid 22204c60-caa0-4f4e-b955-da390dac95b0))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW57") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW57") (unit 1)
         )
       )
@@ -5371,11 +6186,19 @@
     (property "Datasheet" "" (at 173.99 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 173.99 100.711 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid c71e7784-2aa3-4f00-904e-ddde88cf93a9))
     (pin "2" (uuid ce86d013-e01d-4cab-979e-9eeea852e595))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW54") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW54") (unit 1)
         )
       )
@@ -5397,11 +6220,19 @@
     (property "Datasheet" "" (at 256.54 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 256.54 123.571 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid d4694bc5-2eba-4108-bb47-b1d15e7fefb8))
     (pin "2" (uuid 078e10d2-1e66-494b-8b17-2516d7e2669a))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW75") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW75") (unit 1)
         )
       )
@@ -5423,7 +6254,7 @@
     (property "Datasheet" "~" (at 96.52 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 96.52 66.04 0)
+    (property "LCSC" "C2972762" (at 91.44 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d7055cb9-bb67-4227-93d8-6807d86becbf))
@@ -5431,6 +6262,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D19") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D19") (unit 1)
         )
       )
@@ -5452,7 +6288,7 @@
     (property "Datasheet" "~" (at 179.07 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 179.07 43.18 0)
+    (property "LCSC" "C2972762" (at 173.99 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0944bcc3-99bf-4fee-b166-b9d1a7970ac2))
@@ -5460,6 +6296,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D8") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D8") (unit 1)
         )
       )
@@ -5481,11 +6322,19 @@
     (property "Datasheet" "" (at 173.99 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 173.99 32.131 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid d3196893-f694-4526-8713-25636c98a58b))
     (pin "2" (uuid 9b3ed7d7-c7b3-4b1d-bf2a-fac2ddda2869))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW8") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW8") (unit 1)
         )
       )
@@ -5507,7 +6356,7 @@
     (property "Datasheet" "~" (at 113.03 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 113.03 66.04 0)
+    (property "LCSC" "C2972762" (at 107.95 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 77200108-2a5b-4a9c-ad6d-4760188cdcdd))
@@ -5515,6 +6364,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D20") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D20") (unit 1)
         )
       )
@@ -5536,7 +6390,7 @@
     (property "Datasheet" "~" (at 245.11 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 245.11 66.04 0)
+    (property "LCSC" "C2972762" (at 240.03 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b305510f-438d-4e22-a326-cb66c7efc7ea))
@@ -5544,6 +6398,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D26") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D26") (unit 1)
         )
       )
@@ -5565,7 +6424,7 @@
     (property "Datasheet" "~" (at 162.56 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 162.56 111.76 0)
+    (property "LCSC" "C2972762" (at 157.48 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c2f28a46-eed5-4563-afec-a31ec7b504fa))
@@ -5573,6 +6432,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D53") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D53") (unit 1)
         )
       )
@@ -5594,7 +6458,7 @@
     (property "Datasheet" "~" (at 261.62 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 261.62 111.76 0)
+    (property "LCSC" "C2972762" (at 256.54 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid bc5c4fbb-0715-4660-9448-1afc600bb08a))
@@ -5602,6 +6466,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D59") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D59") (unit 1)
         )
       )
@@ -5623,11 +6492,19 @@
     (property "Datasheet" "" (at 41.91 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 41.91 100.711 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid f86843da-d525-46f6-8a69-03b56a948836))
     (pin "2" (uuid c8cd9ebf-7b82-422c-8182-2a4566da3d7c))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW46") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW46") (unit 1)
         )
       )
@@ -5649,7 +6526,7 @@
     (property "Datasheet" "~" (at 261.62 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 261.62 134.62 0)
+    (property "LCSC" "C2972762" (at 256.54 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 94113e77-d13c-4dd8-a842-636063323f6c))
@@ -5657,6 +6534,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D75") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D75") (unit 1)
         )
       )
@@ -5678,11 +6560,19 @@
     (property "Datasheet" "" (at 190.5 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 190.5 54.991 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid fa096fa5-574d-428e-a784-98c80f2590af))
     (pin "2" (uuid c31a9c4d-06b8-46d0-94ee-84fbbbeb5f40))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW23") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW23") (unit 1)
         )
       )
@@ -5704,11 +6594,19 @@
     (property "Datasheet" "" (at 240.03 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 240.03 77.851 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 093793db-8fe4-427b-85b8-7ec46eb15d90))
     (pin "2" (uuid 3d35a365-80b5-4aff-844b-e5451bd791b2))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW42") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW42") (unit 1)
         )
       )
@@ -5730,11 +6628,19 @@
     (property "Datasheet" "" (at 91.44 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 91.44 54.991 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 7c6fd6d0-6fcf-4883-8302-5153b7b2a49b))
     (pin "2" (uuid 17e8faa5-a1e0-4fa5-92d9-a711ab5da73f))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW19") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW19") (unit 1)
         )
       )
@@ -5756,11 +6662,19 @@
     (property "Datasheet" "" (at 41.91 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 41.91 77.851 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid da2c6aba-acbc-438c-9d24-26a7900edd3b))
     (pin "2" (uuid 1db17ce7-51cb-4f29-9845-03486d053e39))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW30") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW30") (unit 1)
         )
       )
@@ -5782,11 +6696,19 @@
     (property "Datasheet" "" (at 173.99 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 173.99 123.571 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 1b8358b8-9eb9-480f-b396-fbd9b8cdd9ed))
     (pin "2" (uuid a611f71b-4397-4fcf-9422-104849985bdb))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW70") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW70") (unit 1)
         )
       )
@@ -5808,7 +6730,7 @@
     (property "Datasheet" "~" (at 113.03 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 113.03 111.76 0)
+    (property "LCSC" "C2972762" (at 107.95 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6d55441f-542a-466b-bbfa-e64b54d302c9))
@@ -5816,6 +6738,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D50") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D50") (unit 1)
         )
       )
@@ -5846,6 +6773,11 @@
           (reference "SW54_Stab1") (unit 1)
         )
       )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
+          (reference "SW54_Stab1") (unit 1)
+        )
+      )
     )
   )
 
@@ -5864,11 +6796,19 @@
     (property "Datasheet" "" (at 157.48 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 157.48 123.571 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid ab9e8af0-21bf-43f6-ba66-aa2a94ddfb31))
     (pin "2" (uuid 910096df-4640-409a-b3c2-980efe654109))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW69") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW69") (unit 1)
         )
       )
@@ -5890,7 +6830,7 @@
     (property "Datasheet" "~" (at 146.05 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 146.05 134.62 0)
+    (property "LCSC" "C2972762" (at 140.97 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8abdfd4e-22db-4739-bdbd-4a655c85a4ee))
@@ -5898,6 +6838,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D68") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D68") (unit 1)
         )
       )
@@ -5919,7 +6864,7 @@
     (property "Datasheet" "~" (at 195.58 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 195.58 43.18 0)
+    (property "LCSC" "C2972762" (at 190.5 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3109be7f-e0f6-4b13-8da1-88c95d6fbac5))
@@ -5927,6 +6872,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D9") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D9") (unit 1)
         )
       )
@@ -5948,11 +6898,19 @@
     (property "Datasheet" "" (at 41.91 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 41.91 123.571 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 1427dc55-9c1d-4c9a-a38a-b714da803af5))
     (pin "2" (uuid 54e6e471-b2ef-46f2-bd63-d2cf348efd86))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW62") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW62") (unit 1)
         )
       )
@@ -5974,11 +6932,19 @@
     (property "Datasheet" "" (at 124.46 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 124.46 100.711 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid b46a19f6-7993-4c36-bc82-2e771c420b6a))
     (pin "2" (uuid ef29d8fb-b600-4029-8be4-d01048cd1b03))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW51") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW51") (unit 1)
         )
       )
@@ -6000,11 +6966,19 @@
     (property "Datasheet" "" (at 124.46 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 124.46 54.991 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid b5d25c95-dd66-4561-bd52-4694f00a8d84))
     (pin "2" (uuid a8539aa9-9e43-466c-a9a5-920ca28a12dd))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW21") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW21") (unit 1)
         )
       )
@@ -6035,6 +7009,11 @@
           (reference "SW37_Stab1") (unit 1)
         )
       )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
+          (reference "SW37_Stab1") (unit 1)
+        )
+      )
     )
   )
 
@@ -6053,11 +7032,19 @@
     (property "Datasheet" "" (at 107.95 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 107.95 77.851 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid f97e8dbb-bf41-4e4d-8ad7-290767778ecd))
     (pin "2" (uuid 9d79dc6c-0a15-495d-aa4e-5f54c4cd72d7))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW34") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW34") (unit 1)
         )
       )
@@ -6079,11 +7066,19 @@
     (property "Datasheet" "" (at 25.4 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 25.4 100.711 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 6e1a480f-f993-4396-a548-87d840a694a4))
     (pin "2" (uuid 490da126-5636-497f-9c18-ab0d76caee6b))
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "SW45") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "SW45") (unit 1)
         )
       )
@@ -6105,7 +7100,7 @@
     (property "Datasheet" "~" (at 179.07 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C2972762" (at 179.07 66.04 0)
+    (property "LCSC" "C2972762" (at 173.99 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e4256758-f160-40d4-83aa-37037e459871))
@@ -6113,6 +7108,11 @@
     (instances
       (project "arisu"
         (path "/6a4507f9-fb93-401b-b9e1-9f2bcbbd5186/00000000-0000-0000-0000-00005c4ef302"
+          (reference "D22") (unit 1)
+        )
+      )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
           (reference "D22") (unit 1)
         )
       )
@@ -6134,6 +7134,9 @@
     (property "Datasheet" "" (at 107.95 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5156480" (at 107.95 54.991 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 4f0b762d-ec35-4358-9fd0-7b72ebdd689b))
     (pin "2" (uuid 6c568fc5-eb19-425b-9ddf-23fbe6d10fb4))
     (instances
@@ -6142,6 +7145,15 @@
           (reference "SW20") (unit 1)
         )
       )
+      (project "matrix"
+        (path "/98b63c51-11ba-4126-a7f0-1b1efea5c446"
+          (reference "SW20") (unit 1)
+        )
+      )
     )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
   )
 )
